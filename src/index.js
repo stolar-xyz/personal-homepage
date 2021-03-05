@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Normalize } from "styled-normalize";
+import { ThemeProvider } from 'styled-components';
+import { theme } from './theme';
+import { GlobalStyle } from './GlobalStyle';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Normalize />
-    <App />
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Normalize />
+      <App />
+    </ ThemeProvider >
   </React.StrictMode>,
   document.getElementById('root')
 );
