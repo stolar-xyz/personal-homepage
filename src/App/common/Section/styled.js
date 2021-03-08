@@ -14,4 +14,5 @@ export const SubHeader = styled.h2`
     padding-bottom: 19px;
     font-size: 30px;
     border-bottom: 1px solid rgba(229, 229, 229, 1);
+    font-weight: 900;
 `;
