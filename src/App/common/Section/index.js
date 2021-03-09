@@ -1,11 +1,9 @@
 import React from 'react'
-import { StyledSection, SubHeader } from './styled';
+import { StyledSection } from './styled';
 
 const Section = ({ title, body }) => (
     <StyledSection>
-        <SubHeader>
-            {title}
-        </SubHeader>
+        {title}
         {body}
     </StyledSection>
 );
