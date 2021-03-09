@@ -6,8 +6,9 @@ export const StyledList = styled.ul`
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     grid-gap: 16px;
-    padding: 0;
-    margin: 32px 0 0 0;
+    padding: 32px 0 0 0;
+    margin: 18px 0 0 0;
+    border-top: 1px solid rgba(229, 229, 229, 1);
 `;
 
 export const ListItem = styled.li`
