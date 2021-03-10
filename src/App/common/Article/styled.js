@@ -1,10 +1,7 @@
 import styled from 'styled-components';;
 
 export const StyledArticle = styled.article`
-    max-width: 1089px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 66px;
+    display: flex;
 `;
 
 export const Container = styled.div`
