@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
 `;
 
-export const StyledIconButton = styled.button`
+export const IconButton = styled.button`
     margin-right: 24px;
     color: #ffffff;
     background: black;

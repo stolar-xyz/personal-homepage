@@ -1,20 +1,20 @@
 import React from 'react'
-import { StyledIconButton, Wrapper } from './styled';
+import { IconButton, Wrapper } from './styled';
 
 const IconButtons = () => (
     <Wrapper>
-        <StyledIconButton>
+        <IconButton>
             click me!
-    </StyledIconButton>
-        <StyledIconButton>
+    </IconButton>
+        <IconButton>
             click me!
-    </StyledIconButton>
-        <StyledIconButton>
+    </IconButton>
+        <IconButton>
             click me!
-    </StyledIconButton>
-        <StyledIconButton>
+    </IconButton>
+        <IconButton>
             click me!
-    </StyledIconButton>
+    </IconButton>
     </Wrapper>
 );
 
