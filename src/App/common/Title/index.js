@@ -14,6 +14,13 @@ const Title = styled.h1`
         font-size: 32px;
         margin: 24px 0;
     `}
+
+    ${({ tile }) => tile && css`
+        font-size: 24px;
+        margin: 0;
+        color: #0366D6;
+        font-weight: 700;
+    `}
 `;
 
 export default Title;
