@@ -13,12 +13,15 @@ const Title = styled.h1`
     ${({ mail }) => mail && css`
         font-size: 32px;
         margin: 24px 0;
+
+        &:hover {
+            color: #0366D6;
+        };
     `}
 
-    ${({ tile }) => tile && css`
+    ${({ tile }) => tile && css`  
         font-size: 24px;
         margin: 0;
-        color: #0366D6;
     `}
 `;
 

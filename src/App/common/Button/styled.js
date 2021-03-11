@@ -10,4 +10,8 @@ export const StyledButton = styled.button`
     font-weight: 600;
     letter-spacing: 0.05em;
     font-size: 20px;
+
+    &:hover {
+        background: #2188FF;
+    };
 `;

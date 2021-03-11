@@ -6,6 +6,10 @@ export const StyledTile = styled.div`
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border: 6px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
+
+    &:hover {
+        border: 6px solid rgba(3, 102, 214, 0.2);
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -24,5 +28,9 @@ export const Link = styled.a`
     text-decoration: none;
     font-size: 18px;
     color: #0366D6;
-    border-bottom: 1px solid rgb(3 102 214 / 20%);
-`
+    border-bottom: 1px solid rgba(3, 102, 214, 0.2);
+
+    &:hover {
+        color: #2188FF;
+    };
+`;
