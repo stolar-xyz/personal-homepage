@@ -5,7 +5,7 @@ import { StyledProfile } from './styled';
 const Profile = () => (
     <StyledProfile
         src={profile}
-        alt="Andrzej Stolarek"
+        alt="Author photo"
     />
 );
 
