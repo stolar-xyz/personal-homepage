@@ -1,21 +1,21 @@
 import React from 'react'
-import { IconButton, Wrapper } from './styled';
+import { IconButton } from './styled';
 
 const IconButtons = () => (
-    <Wrapper>
+    <div>
         <IconButton>
             click me!
-    </IconButton>
+        </IconButton>
         <IconButton>
             click me!
-    </IconButton>
+        </IconButton>
         <IconButton>
             click me!
-    </IconButton>
+        </IconButton>
         <IconButton>
             click me!
-    </IconButton>
-    </Wrapper>
+        </IconButton>
+    </div>
 );
 
 export default IconButtons;

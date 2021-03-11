@@ -19,7 +19,6 @@ const Title = styled.h1`
         font-size: 24px;
         margin: 0;
         color: #0366D6;
-        font-weight: 700;
     `}
 `;
 
