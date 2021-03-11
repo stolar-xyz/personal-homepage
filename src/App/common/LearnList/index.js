@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyledList, ListItem } from "../List/styled";
+import { List, ListItem } from "../List/styled";
 
 const LearnList = () => (
-    <StyledList>
+    <List>
         <ListItem>
             React Context
         </ListItem>
@@ -21,7 +21,7 @@ const LearnList = () => (
         <ListItem>
             Node.js
         </ListItem>
-    </StyledList>
+    </List>
 );
 
 export default LearnList;

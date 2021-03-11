@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyledList, ListItem } from "../List/styled";
+import { List, ListItem } from "../List/styled";
 
 const SkillList = () => (
-    <StyledList>
+    <List>
         <ListItem>
             Semantic &amp; accessible HTML
         </ListItem>
@@ -78,7 +78,7 @@ const SkillList = () => (
         <ListItem>
             Immutability
         </ListItem>
-    </StyledList>
+    </List>
 );
 
 export default SkillList;
