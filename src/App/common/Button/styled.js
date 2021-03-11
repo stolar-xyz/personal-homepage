@@ -12,6 +12,10 @@ export const StyledButton = styled.button`
     font-size: 20px;
 
     &:hover {
-        background: #2188FF;
+        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;;
     };
+
+    &:active {
+        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+    }
 `;
