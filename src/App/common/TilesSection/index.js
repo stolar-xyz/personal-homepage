@@ -1,12 +1,13 @@
 import React from 'react'
 import Tile from '../Tile';
 import { Container, Icon, Wrapper, ExtraTitleContent } from './styled';
+import { ReactComponent as GithubIcon } from "../../images/svgs/github.svg";
 
-const TilesSection = ({ title, extraTitleContent, extraContent }) => (
+const TilesSection = ({ title, extraTitleContent }) => (
     <section>
         <Wrapper>
             <Icon>
-                {extraContent}
+                <GithubIcon/>
             </Icon>
                 {title}
             <ExtraTitleContent>

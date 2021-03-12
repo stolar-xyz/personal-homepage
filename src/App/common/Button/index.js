@@ -1,9 +1,9 @@
 import React from 'react'
-import { StyledButton } from './styled';
+import { ButtonIcon, StyledButton } from './styled';
 
 const Button = () => (
     <StyledButton>
-        🤹‍♂️ Hire Me
+        <ButtonIcon /> Hire Me
     </StyledButton>
 );
 

@@ -5,13 +5,14 @@ export const Wrapper = styled.div`
     margin-bottom: 24px;
 `;
 
-export const Icon = styled.span`
+export const Icon = styled.div`
     color: #0366D6;
+    margin-bottom: 12px;
 `;
 
 export const ExtraTitleContent = styled.div`
     font-size: 20px;
-    margin: 9px 0;
+    margin: 9px 0 0;
 `;
 
 export const Container = styled.div`

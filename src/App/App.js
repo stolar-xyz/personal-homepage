@@ -1,7 +1,6 @@
 import Article from "./common/Article";
 import Button from "./common/Button";
 import Main from "./common/Main";
-import IconButtons from "./common/IconButtons";
 import LearnList from "./common/LearnList";
 import Profile from "./common/Profile";
 import Section from "./common/Section";
@@ -9,6 +8,7 @@ import SkillList from "./common/SkillList";
 import TilesSection from "./common/TilesSection";
 import Description from "./common/Description";
 import Title from "./common/Title";
+import IconLinks from "./common/IconLinks";
 
 function App() {
   return (
@@ -51,7 +51,6 @@ function App() {
         body={<LearnList />}
       />
       <TilesSection
-        extraContent={"Github Icon"}
         title={
           <Title
             subtitle
@@ -76,7 +75,7 @@ function App() {
             {"I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to conatct me ✌"}
           </Description>
         }
-        extraContent={<IconButtons />}
+        extraContent={<IconLinks />}
       />
     </Main>
   );
