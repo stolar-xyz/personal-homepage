@@ -18,7 +18,7 @@ const Tile = ({ header, description, demo, code }) => (
             <Link
                 href="https://www.google.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
             >
                 {demo}
             </Link>
@@ -28,7 +28,7 @@ const Tile = ({ header, description, demo, code }) => (
             <Link
                 href="https://www.google.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
             >
                 {code}
             </Link>
