@@ -1,14 +1,15 @@
 import React from 'react'
 import profile from "../../images/profile.png";
+import LazyLoad from 'react-lazyload';
 import { StyledProfile } from './styled';
 
 const Profile = () => (
-    <StyledProfile
-        src={profile}
-        alt="Author photo"
-        width="398"
-        height="398"
-    />
+    <LazyLoad>
+        <StyledProfile
+            src={profile}
+            alt="Author photo"
+        />
+    </LazyLoad>
 );
 
 export default Profile;
