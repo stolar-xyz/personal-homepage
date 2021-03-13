@@ -6,6 +6,8 @@ const Profile = () => (
     <StyledProfile
         src={profile}
         alt="Author photo"
+        width="398"
+        height="398"
     />
 );
 
