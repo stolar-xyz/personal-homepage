@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
     align-items: center;
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
-    background: #0366D6;
+    background: ${({ theme }) => theme.colors.button};
     color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
@@ -15,7 +15,7 @@ export const StyledButton = styled.button`
     font-size: 20px;
 
     &:hover {
-        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;;
+        box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.colors.hover.buttonShadow};
     };
 
     &:active {

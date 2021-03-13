@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Title = styled.h1`
+    color: ${({ theme }) => theme.colors.title};
     margin: 12px 0 0 0;
     font-weight: 900;
     font-size: 38px;
@@ -15,7 +16,7 @@ const Title = styled.h1`
         margin: 24px 0;
 
         &:hover {
-            color: #0366D6;
+            color: ${({ theme }) => theme.colors.hover.title};
         };
     `}
 `;

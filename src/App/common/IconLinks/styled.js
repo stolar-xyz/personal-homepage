@@ -7,9 +7,9 @@ export const Container = styled.div`
 `;
 
 export const IconLink = styled.a`
-    color: #252525;
+    color: ${({ theme }) => theme.colors.iconLink};
 
     &:hover {
-        color: #0366D6;
+        color: ${({ theme }) => theme.colors.hover.iconLink};
     };
 `;

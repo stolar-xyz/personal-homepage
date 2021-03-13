@@ -14,6 +14,6 @@ export const Container = styled.div`
 export const ExtraTitleContent = styled.span`
     font-weight: 700;
     font-size: 12px;
-    color: #6E7E91;
+    color: ${({ theme }) => theme.colors.primaryText};
     text-transform: uppercase;
 `;
