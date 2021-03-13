@@ -10,25 +10,29 @@ const IconLinks = () => (
         <IconLink
             href="https://github.com/stolar-code/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            title="Github">
             <GithubExtraIcon />
         </IconLink>
         <IconLink
             href="https://www.facebook.com/ctucb/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            title="Facebook">
             <FacebookIcon />
         </IconLink>
         <IconLink
             href="https://www.linkedin.com/in/stolar-code/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            title="LinkedIn">
             <LinkedInIcon />
         </IconLink>
         <IconLink
             href="https://www.instagram.com/stolar.xyz/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            title="Instagram">
             <InstagramIcon />
         </IconLink>
     </Container>
