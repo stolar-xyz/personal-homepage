@@ -1,11 +1,10 @@
 import React from 'react'
 import Description from '../Description';
-import Title from '../Title';
-import { Text, StyledTile, Link, Wrapper } from './styled';
+import { Text, StyledTile, Link, Wrapper, Title } from './styled';
 
 const Tile = ({ header, description, demo, code }) => (
     <StyledTile>
-        <Title tile as="h3">
+        <Title>
             {header}
         </Title>
         <Description tile>

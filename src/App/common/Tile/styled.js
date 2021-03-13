@@ -19,6 +19,12 @@ export const Wrapper = styled.div`
     justify-content: start;
 `;
 
+export const Title = styled.h3`
+    color: #0366D6;
+    font-size: 24px;
+    margin: 0;
+`;
+
 export const Text = styled.span`
     font-size: 18px;
     color: #6E7E91;
