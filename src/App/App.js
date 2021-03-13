@@ -1,5 +1,5 @@
 import Article from "./common/Article";
-import Button from "./common/Button";
+import MainLink from "./common/MainLink";
 import Main from "./common/Main";
 import LearnList from "./common/LearnList";
 import Profile from "./common/Profile";
@@ -39,7 +39,7 @@ const App = () => {
               {"👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities."}
             </Description>
           }
-          extraContent={<Button />}
+          extraContent={<MainLink />}
         />
         <Section
           title={

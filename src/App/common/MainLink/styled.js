@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 import { ReactComponent as message } from "../../images/svgs/message.svg";
 
-export const StyledButton = styled.button`
+export const StyledMainLink = styled.a`
     display: flex;
     align-items: center;
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     background: ${({ theme }) => theme.colors.button};
-    color: #ffffff;
+    color: #FFFFFF;
     cursor: pointer;
+    text-decoration: none;
     border-radius: 4px;
     font-weight: 600;
-    letter-spacing: 0.05em;
     font-size: 20px;
 
     &:hover {
@@ -23,6 +23,6 @@ export const StyledButton = styled.button`
     };
 `;
 
-export const ButtonIcon = styled(message)`
+export const MainLinkIcon = styled(message)`
     margin-right: 18px;
 `;
