@@ -4,14 +4,10 @@ import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 import store from "./App/store";
 import { Provider } from "react-redux";
-import { Normalize } from "styled-normalize";
-import { GlobalStyle } from './App/GlobalStyle';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <GlobalStyle />
-      <Normalize />
       <App />
     </Provider>
   </React.StrictMode>,

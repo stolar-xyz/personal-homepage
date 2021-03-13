@@ -14,12 +14,16 @@ import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./theme";
 import { useSelector } from "react-redux";
 import { selectDarkTheme } from "./features/themeToggler/themeSlice";
+import { Normalize } from "styled-normalize";
+import { GlobalStyle } from './GlobalStyle';
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
 
   return (
     <ThemeProvider theme={isThemeDark ? darkTheme : lightTheme}>
+      <GlobalStyle />
+      <Normalize />
       <Main>
         <ThemeToggler />
         <Article
