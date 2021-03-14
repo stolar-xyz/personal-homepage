@@ -2,6 +2,7 @@ import styled from 'styled-components';;
 
 export const StyledArticle = styled.article`
     display: flex;
+    position: relative;
 `;
 
 export const Container = styled.div`

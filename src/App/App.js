@@ -25,8 +25,8 @@ const App = () => {
       <GlobalStyle />
       <Normalize />
       <Main>
-        <ThemeToggler />
         <Article
+          themeToggler={ <ThemeToggler />}
           image={<Profile />}
           extraTitleContent={"This is"}
           title={

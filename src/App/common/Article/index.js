@@ -1,8 +1,9 @@
 import React from 'react'
 import { Container, ExtraTitleContent, StyledArticle } from './styled';
 
-const Article = ({ extraTitleContent, title, description, extraContent, image }) => (
+const Article = ({ extraTitleContent, title, description, extraContent, image, themeToggler }) => (
     <StyledArticle>
+        {themeToggler}
         {image}
         <Container>
             <ExtraTitleContent>
