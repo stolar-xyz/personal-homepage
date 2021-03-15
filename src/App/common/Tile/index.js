@@ -7,7 +7,7 @@ const Tile = ({ header, description, demo, code }) => (
         <Title>
             {header}
         </Title>
-        <Description tile>
+        <Description>
             {description}
         </Description>
         <Wrapper>
