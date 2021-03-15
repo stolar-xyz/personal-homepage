@@ -17,6 +17,7 @@ export const lightTheme = {
             tileTitle: colors.scienceBlue,
             link: colors.scienceBlue,
         },
+
         background: {
             primaryBackground: "#FBFBFE",
             secondaryBackground: colors.white,
@@ -30,11 +31,13 @@ export const lightTheme = {
             listBorder: "rgba(209, 213, 218, 0.8)",
             tileBorder: "rgba(209, 213, 218, 0.3)",
         },
+
         element: {
             ballColor: colors.white,
             icon: colors.scienceBlue,
             iconLink: colors.mineShaft,
         },
+
         hover: {
             title: colors.scienceBlue,
             tileBorder: colors.scienceBlueLight,
@@ -54,6 +57,7 @@ export const darkTheme = {
             tileTitle: colors.white,
             link: "#4B9FFF",
         },
+
         background: {
             primaryBackground: colors.mineShaft,
             secondaryBackground: "#343435",
@@ -61,16 +65,19 @@ export const darkTheme = {
             themeTogglerBackground: "#6E6E6E",
             ballBackground: colors.white,
         },
+
         border: {
             linkBorder: "rgba(33, 136, 255, 0.4)",
             listBorder: colors.ironLight,
             tileBorder: colors.ironLight,
         },
+
         element: {
             ballColor: colors.mineShaft,
             icon: colors.dodgerBlue,
             iconLink: colors.white,
         },
+        
         hover: {
             title: colors.dodgerBlue,
             tileBorder: "rgba(3, 102, 214, 0.5)",
