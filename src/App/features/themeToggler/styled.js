@@ -8,14 +8,6 @@ export const Label = styled.label`
     cursor: pointer;
 `;
 
-export const LabelText = styled.span`
-    color: ${({ theme }) => theme.colors.primaryText};
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: normal;
-`;
-
 export const Toggler = styled.div`
     display: flex;
     align-items: center;

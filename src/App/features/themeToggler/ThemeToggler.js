@@ -1,8 +1,9 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { CheckBox, Label, LabelText, Toggler, Ball } from "./styled";
+import { CheckBox, Label, Toggler, Ball } from "./styled";
 import { selectDarkTheme, toggleDarkTheme } from "./themeSlice";
 import { ReactComponent as SunIcon } from "../../images/svgs/sun.svg";
+import ExtraTextContent from "../../common/ExtraTextContent";
 
 const ThemeToggler = () => {
     const isThemeDark = useSelector(selectDarkTheme);
@@ -10,9 +11,9 @@ const ThemeToggler = () => {
 
     return (
         <Label>
-            <LabelText>
+            <ExtraTextContent>
                 Dark mode {isThemeDark ? "On" : "Off"}
-            </LabelText>
+            </ExtraTextContent>
             <Toggler>
                 <CheckBox
                     type="checkbox"
