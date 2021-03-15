@@ -1,17 +1,20 @@
 import React from 'react'
 import Tile from '../Tile';
-import { Container, Icon, Wrapper, ExtraTitleContent } from './styled';
-import { ReactComponent as GithubIcon } from "../../images/svgs/github.svg";
+import { Container, Wrapper, ExtraTitleContent, GithubIcon } from './styled';
+import Title from '../Title';
 
-const TilesSection = ({ title, extraTitleContent }) => (
+const Tiles = () => (
     <section>
         <Wrapper>
-            <Icon>
-                <GithubIcon/>
-            </Icon>
-                {title}
+            <GithubIcon />
+            <Title
+                subtitle
+                as="h2"
+            >
+                {"Portfolio"}
+            </Title>
             <ExtraTitleContent>
-                {extraTitleContent}
+                {"My recent projects"}
             </ExtraTitleContent>
         </Wrapper>
         <Container>
@@ -43,4 +46,4 @@ const TilesSection = ({ title, extraTitleContent }) => (
     </section>
 );
 
-export default TilesSection;
+export default Tiles;

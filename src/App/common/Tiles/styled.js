@@ -1,16 +1,17 @@
 import styled from 'styled-components';
+import { ReactComponent as githubIcon } from "../../images/svgs/github.svg";
 
 export const Wrapper = styled.div`
     text-align: center;
     margin-bottom: 24px;
 `;
 
-export const Icon = styled.div`
+export const GithubIcon = styled(githubIcon)`
     color: ${({ theme }) => theme.colors.icon};
     margin-bottom: 12px;
 `;
 
-export const ExtraTitleContent = styled.div`
+export const ExtraTitleContent = styled.p`
     color: ${({ theme }) => theme.colors.secondaryText};
     font-size: 20px;
     margin: 9px 0 0;
