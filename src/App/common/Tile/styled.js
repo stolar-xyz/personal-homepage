@@ -6,6 +6,7 @@ export const StyledTile = styled.div`
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border: 6px solid ${({ theme }) => theme.colors.tileBorder};
     border-radius: 4px;
+    transition: border 0.3s;
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.colors.hover.tileBorder};
@@ -35,6 +36,7 @@ export const Link = styled.a`
     font-size: 18px;
     color: ${({ theme }) => theme.colors.link};
     border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorder};
+    transition: color 0.3s;
 
     &:hover {
         color: ${({ theme }) => theme.colors.hover.link};

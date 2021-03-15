@@ -29,7 +29,7 @@ export const Ball = styled.div`
     border-radius: 50%;
     height: 20px;
     width: 20px;
-    transition: background 0.5s, transform 0.5s;
+    transition: background 0.3s, transform 0.5s;
 `;
 
 export const CheckBox = styled.input`

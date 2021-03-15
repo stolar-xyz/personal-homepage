@@ -13,13 +13,14 @@ export const StyledLinkButton = styled.a`
     border-radius: 4px;
     font-weight: 600;
     font-size: 20px;
+    transition: box-shadow 0.3s;
 
     &:hover {
         box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.colors.hover.buttonShadow};
     };
 
     &:active {
-        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+        box-shadow: inset 0px 4px 0px rgba(20, 70, 32, 0.2);
     };
 `;
 

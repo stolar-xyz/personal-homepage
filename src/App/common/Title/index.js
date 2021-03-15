@@ -14,6 +14,7 @@ const Title = styled.h1`
     ${({ mail }) => mail && css`
         font-size: 32px;
         margin: 24px 0;
+        transition: color 0.3s;
 
         &:hover {
             color: ${({ theme }) => theme.colors.hover.title};
