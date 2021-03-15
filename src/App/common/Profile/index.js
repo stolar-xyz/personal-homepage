@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from "../../images/profile.png";
+import profile from "../../images/profile.jpg";
 import LazyLoad from 'react-lazyload';
 import { StyledProfile } from './styled';
 
