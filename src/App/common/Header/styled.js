@@ -1,6 +1,6 @@
 import styled from 'styled-components';;
 
-export const StyledArticle = styled.article`
+export const StyledHeader = styled.header`
     display: flex;
     position: relative;
 `;
@@ -10,11 +10,4 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-`;
-
-export const ExtraTitleContent = styled.span`
-    font-weight: 700;
-    font-size: 12px;
-    color: ${({ theme }) => theme.colors.primaryText};
-    text-transform: uppercase;
 `;
