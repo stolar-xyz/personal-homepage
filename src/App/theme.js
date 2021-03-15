@@ -1,51 +1,82 @@
-export const lightTheme = {
-    colors: {
-        title: "#252525",
-        tileTitle: "#0366D6",
-        tileBorder: "rgba(209, 213, 218, 0.3)",
-        link: "#0366D6",
-        linkBorder: "rgba(3, 102, 214, 0.2)",
-        listBorder: "rgba(209, 213, 218, 0.8)",
-        primaryText: "#687585",
-        secondaryText: "#252525",
-        primaryBackground: "#FBFBFE",
-        secondaryBackground: "#FFFFFF",
-        button: "#0366D6",
-        icon: "#0366D6",
-        iconLink: "#252525",
+const colors = {
+    white: "#FFFFFF",
+    mineShaft: "#252525",
+    scienceBlue: "#0366D6",
+    scienceBlueLight: "#0366D633",
+    dodgerBlue: "#2188FF",
+    paleSky: "#687585",
+    ironLight: "#D1D5DA1A",
+};
 
+export const lightTheme = {
+    color: {
+        text: {
+            primaryText: colors.paleSky,
+            secondaryText: colors.mineShaft,
+            title: colors.mineShaft,
+            tileTitle: colors.scienceBlue,
+            link: colors.scienceBlue,
+        },
+        background: {
+            primaryBackground: "#FBFBFE",
+            secondaryBackground: colors.white,
+            linkButtonBackground: colors.scienceBlue,
+            themeTogglerBackground: "#E5E5E5",
+            ballBackground: colors.paleSky,
+        },
+
+        border: {
+            linkBorder: colors.scienceBlueLight,
+            listBorder: "rgba(209, 213, 218, 0.8)",
+            tileBorder: "rgba(209, 213, 218, 0.3)",
+        },
+        element: {
+            ballColor: colors.white,
+            icon: colors.scienceBlue,
+            iconLink: colors.mineShaft,
+        },
         hover: {
-            title: "#0366D6",
-            tileBorder: "rgba(3, 102, 214, 0.2)",
+            title: colors.scienceBlue,
+            tileBorder: colors.scienceBlueLight,
             buttonShadow: "#8CC2FF",
-            iconLink: "#0366D6",
-            link: "#2188FF",
+            iconLink: colors.scienceBlue,
+            link: "#6529CF",
         },
     },
 };
 
 export const darkTheme = {
-    colors: {
-        title: "#FFFFFF",
-        tileTitle: "#FFFFFF",
-        tileBorder: "rgba(209, 213, 218, 0.1)",
-        link: "#2188FF",
-        linkBorder: "rgba(33, 136, 255, 0.4)",
-        listBorder: "rgba(209, 213, 218, 0.2)",
-        primaryText: "#FFFFFF",
-        secondaryText: "#FFFFFF",
-        primaryBackground: "#252525",
-        secondaryBackground: "#343435",
-        button: "#2188FF",
-        icon: "#2188FF",
-        iconLink: "#FFFFFF",
-
+    color: {
+        text: {
+            primaryText: colors.white,
+            secondaryText: colors.white,
+            title: colors.white,
+            tileTitle: colors.white,
+            link: "#4B9FFF",
+        },
+        background: {
+            primaryBackground: colors.mineShaft,
+            secondaryBackground: "#343435",
+            linkButtonBackground: "#0470F7",
+            themeTogglerBackground: "#6E6E6E",
+            ballBackground: colors.white,
+        },
+        border: {
+            linkBorder: "rgba(33, 136, 255, 0.4)",
+            listBorder: colors.ironLight,
+            tileBorder: colors.ironLight,
+        },
+        element: {
+            ballColor: colors.mineShaft,
+            icon: colors.dodgerBlue,
+            iconLink: colors.white,
+        },
         hover: {
-            title: "#2188FF",
+            title: colors.dodgerBlue,
             tileBorder: "rgba(3, 102, 214, 0.5)",
             buttonShadow: "#6D93BE",
-            iconLink: "#2188FF",
-            link: "#5C9AE0",
+            iconLink: colors.dodgerBlue,
+            link: "#87BDFF",
         },
     },
 };

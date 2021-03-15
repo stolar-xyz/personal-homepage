@@ -7,12 +7,12 @@ export const Wrapper = styled.div`
 `;
 
 export const GithubIcon = styled(githubIcon)`
-    color: ${({ theme }) => theme.colors.icon};
+    color: ${({ theme }) => theme.color.element.icon};
     margin-bottom: 12px;
 `;
 
 export const ExtraTitleContent = styled.p`
-    color: ${({ theme }) => theme.colors.secondaryText};
+    color: ${({ theme }) => theme.color.text.secondaryText};
     font-size: 20px;
     margin: 9px 0 0;
 `;

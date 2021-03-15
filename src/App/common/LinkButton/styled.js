@@ -6,7 +6,7 @@ export const StyledLinkButton = styled.a`
     align-items: center;
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
-    background: ${({ theme }) => theme.colors.button};
+    background: ${({ theme }) => theme.color.background.linkButtonBackground};
     color: #FFFFFF;
     cursor: pointer;
     text-decoration: none;
@@ -16,7 +16,7 @@ export const StyledLinkButton = styled.a`
     transition: box-shadow 0.3s;
 
     &:hover {
-        box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.colors.hover.buttonShadow};
+        box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.color.hover.buttonShadow};
     };
 
     &:active {

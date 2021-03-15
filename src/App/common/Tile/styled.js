@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
 export const StyledTile = styled.div`
-    background: ${({ theme }) => theme.colors.secondaryBackground};
+    background: ${({ theme }) => theme.color.background.secondaryBackground};
     padding: 50px;
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
-    border: 6px solid ${({ theme }) => theme.colors.tileBorder};
+    border: 6px solid ${({ theme }) => theme.color.border.tileBorder};
     border-radius: 4px;
     transition: border 0.3s;
 
     &:hover {
-        border: 6px solid ${({ theme }) => theme.colors.hover.tileBorder};
+        border: 6px solid ${({ theme }) => theme.color.hover.tileBorder};
     }
 `;
 
@@ -21,24 +21,24 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h3`
-    color: ${({ theme }) => theme.colors.tileTitle};
+    color: ${({ theme }) => theme.color.text.tileTitle};
     font-size: 24px;
     margin: 0;
 `;
 
 export const Text = styled.span`
     font-size: 18px;
-    color: ${({ theme }) => theme.colors.primaryText};
+    color: ${({ theme }) => theme.color.text.primaryText};
 `;
 
 export const Link = styled.a`
     text-decoration: none;
     font-size: 18px;
-    color: ${({ theme }) => theme.colors.link};
-    border-bottom: 1px solid ${({ theme }) => theme.colors.linkBorder};
+    color: ${({ theme }) => theme.color.text.link};
+    border-bottom: 1px solid ${({ theme }) => theme.color.border.linkBorder};
     transition: color 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.colors.hover.link};
+        color: ${({ theme }) => theme.color.hover.link};
     };
 `;

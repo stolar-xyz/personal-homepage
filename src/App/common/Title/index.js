@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Title = styled.h1`
-    color: ${({ theme }) => theme.colors.title};
+    color: ${({ theme }) => theme.color.text.title};
     margin: 12px 0 0 0;
     font-weight: 900;
     font-size: 38px;
@@ -17,7 +17,7 @@ const Title = styled.h1`
         transition: color 0.3s;
 
         &:hover {
-            color: ${({ theme }) => theme.colors.hover.title};
+            color: ${({ theme }) => theme.color.hover.title};
         };
     `}
 `;

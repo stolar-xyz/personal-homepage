@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 const Description = styled.p`
     font-size: 18px;
     margin: 24px 0;
-    color: ${({ theme }) => theme.colors.primaryText};
+    color: ${({ theme }) => theme.color.text.primaryText};
     line-height: 1.4;
 
     ${({ header }) => header && css`
@@ -13,7 +13,7 @@ const Description = styled.p`
     `}
 
     ${({ contact }) => contact && css`
-        color: ${({ theme }) => theme.colors.secondaryText};;
+        color: ${({ theme }) => theme.color.text.secondaryText};;
         margin: 0 0 56px 0;
         max-width: 670px;
     `}

@@ -6,14 +6,14 @@ export const List = styled.ul`
     grid-gap: 16px;
     padding: 32px 0 0 0;
     margin: 18px 0 0 0;
-    border-top: 1px solid ${({ theme }) => theme.colors.listBorder};
+    border-top: 1px solid ${({ theme }) => theme.color.border.listBorder};
 `;
 
 export const ListItem = styled.li`
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: ${({ theme }) => theme.colors.primaryText};
+    color: ${({ theme }) => theme.color.text.primaryText};
 
     &::before {
         content: "";

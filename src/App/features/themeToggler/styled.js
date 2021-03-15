@@ -11,7 +11,7 @@ export const Label = styled.label`
 export const Toggler = styled.div`
     display: flex;
     align-items: center;
-    background: ${({ theme }) => theme.colors.themeTogglerBackground};
+    background: ${({ theme }) => theme.color.background.themeTogglerBackground};
     margin-left: 14px;
     padding: 2px;
     border-radius: 20px;
@@ -24,8 +24,8 @@ export const Ball = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: ${({ theme }) => theme.colors.ballColor};
-    background: ${({ theme }) => theme.colors.ballBackground};
+    color: ${({ theme }) => theme.color.element.ballColor};
+    background: ${({ theme }) => theme.color.background.ballBackground};
     border-radius: 50%;
     height: 20px;
     width: 20px;

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const IconLink = styled.a`
     margin-right: 24px;
-    color: ${({ theme }) => theme.colors.iconLink};
+    color: ${({ theme }) => theme.color.element.iconLink};
     transition: color 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.colors.hover.iconLink};
+        color: ${({ theme }) => theme.color.hover.iconLink};
     };
 `;
