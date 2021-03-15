@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { ReactComponent as message } from "../../images/svgs/message.svg";
 
-export const StyledMainLink = styled.a`
+export const StyledLinkButton = styled.a`
     display: flex;
     align-items: center;
     padding: 12px 16px;
@@ -23,6 +23,6 @@ export const StyledMainLink = styled.a`
     };
 `;
 
-export const MainLinkIcon = styled(message)`
+export const LinkButtonIcon = styled(message)`
     margin-right: 18px;
 `;
