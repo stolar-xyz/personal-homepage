@@ -1,6 +1,6 @@
 import React from 'react'
 import Description from '../Description';
-import { Text, StyledTile, Link, Wrapper, Title } from './styled';
+import { LinkText, StyledTile, Link, Wrapper, Title } from './styled';
 
 const Tile = ({ header, description, demo, code }) => (
     <StyledTile>
@@ -11,9 +11,9 @@ const Tile = ({ header, description, demo, code }) => (
             {description}
         </Description>
         <Wrapper>
-            <Text>
+            <LinkText>
                 Demo:
-            </Text>
+            </LinkText>
             <Link
                 href="https://www.google.com/"
                 target="_blank"
@@ -21,16 +21,16 @@ const Tile = ({ header, description, demo, code }) => (
             >
                 {demo}
             </Link>
-            <Text>
-                Code:
-            </Text>
-            <Link
-                href="https://www.google.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {code}
-            </Link>
+        <LinkText>
+            Code:
+            </LinkText>
+        <Link
+            href="https://www.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            {code}
+        </Link>
         </Wrapper>
     </StyledTile >
 );

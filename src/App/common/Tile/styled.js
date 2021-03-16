@@ -26,16 +26,16 @@ export const Title = styled.h3`
     margin: 0;
 `;
 
-export const Text = styled.span`
+export const LinkText = styled.span`
     font-size: 18px;
     color: ${({ theme }) => theme.color.text.primaryText};
 `;
 
 export const Link = styled.a`
-    text-decoration: none;
     font-size: 18px;
     color: ${({ theme }) => theme.color.text.link};
-    border-bottom: 1px solid ${({ theme }) => theme.color.border.linkBorder};
+    text-underline-offset: 2px;
+    overflow-wrap: anywhere;
     transition: color 0.3s;
 
     &:hover {
