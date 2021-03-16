@@ -1,11 +1,15 @@
 const colors = {
     white: "#FFFFFF",
     mineShaft: "#252525",
-    scienceBlue: "#0366D6",
-    scienceBlueLight: "#0366D633",
+    mariner: "#2B77CC",
     dodgerBlue: "#2188FF",
     paleSky: "#687585",
     ironLight: "#D1D5DA1A",
+};
+
+const breakPoints = {
+    mobileMax: "767",
+    tabletMax: "1365",
 };
 
 export const lightTheme = {
@@ -14,38 +18,38 @@ export const lightTheme = {
             primaryText: colors.paleSky,
             secondaryText: colors.mineShaft,
             title: colors.mineShaft,
-            tileTitle: colors.scienceBlue,
-            link: colors.scienceBlue,
+            tileTitle: colors.mariner,
+            link: colors.mariner,
         },
 
         background: {
             primaryBackground: "#FBFBFE",
             secondaryBackground: colors.white,
-            linkButtonBackground: colors.scienceBlue,
+            linkButtonBackground: colors.mariner,
             themeTogglerBackground: "#E5E5E5",
             ballBackground: colors.paleSky,
         },
 
         border: {
-            linkBorder: colors.scienceBlueLight,
             listBorder: "rgba(209, 213, 218, 0.8)",
             tileBorder: "rgba(209, 213, 218, 0.3)",
         },
 
         element: {
             ballColor: colors.white,
-            icon: colors.scienceBlue,
+            icon: colors.mariner,
             iconLink: colors.mineShaft,
         },
 
         hover: {
-            title: colors.scienceBlue,
-            tileBorder: colors.scienceBlueLight,
+            title: colors.mariner,
+            tileBorder: "rgba(3, 102, 214, 0.3)",
             buttonShadow: "#8CC2FF",
-            iconLink: colors.scienceBlue,
+            iconLink: colors.mariner,
             link: "#6529CF",
         },
     },
+    ...breakPoints,
 };
 
 export const darkTheme = {
@@ -67,7 +71,6 @@ export const darkTheme = {
         },
 
         border: {
-            linkBorder: "rgba(33, 136, 255, 0.4)",
             listBorder: colors.ironLight,
             tileBorder: colors.ironLight,
         },
@@ -77,7 +80,7 @@ export const darkTheme = {
             icon: colors.dodgerBlue,
             iconLink: colors.white,
         },
-        
+
         hover: {
             title: colors.dodgerBlue,
             tileBorder: "rgba(3, 102, 214, 0.5)",
@@ -86,4 +89,5 @@ export const darkTheme = {
             link: "#87BDFF",
         },
     },
+    ...breakPoints,
 };
