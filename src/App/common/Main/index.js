@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const Main = styled.main`
-    display: grid;
-    grid-gap: 72px;
+    margin: 72px 0;
 `;
 
 export default Main;

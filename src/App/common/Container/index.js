@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
+    max-width: 1216px;
     padding: 14px;
-    margin: 105px 0;
-    display: grid;
-    grid-gap: 72px;
-    grid-template-columns: minmax(auto, 1216px);
-    justify-content: center;
+    margin: 105px auto;
 `;
 
 export default Container;

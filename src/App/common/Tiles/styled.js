@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { ReactComponent as githubIcon } from "../../images/svgs/github.svg";
 
+export const StyledTiles = styled.section`
+    margin: 72px 0;
+`;
+
 export const Wrapper = styled.div`
     text-align: center;
     margin-bottom: 24px;
