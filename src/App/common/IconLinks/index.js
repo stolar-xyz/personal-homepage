@@ -1,12 +1,12 @@
 import React from 'react'
-import { IconLink } from './styled';
+import { IconLink, StyledIconLinks } from './styled';
 import { ReactComponent as GithubExtraIcon } from "../../images/svgs/githubExtra.svg";
 import { ReactComponent as FacebookIcon } from "../../images/svgs/facebook.svg";
 import { ReactComponent as LinkedInIcon } from "../../images/svgs/linkedIn.svg";
 import { ReactComponent as InstagramIcon } from "../../images/svgs/instagram.svg";
 
 const IconLinks = () => (
-    <div>
+    <StyledIconLinks>
         <IconLink
             href="https://github.com/stolar-code/"
             target="_blank"
@@ -35,7 +35,7 @@ const IconLinks = () => (
             title="Instagram">
             <InstagramIcon />
         </IconLink>
-    </div>
+    </StyledIconLinks>
 );
 
 export default IconLinks;

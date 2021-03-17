@@ -22,8 +22,16 @@ export const StyledLinkButton = styled.a`
     &:active {
         box-shadow: inset 0px 4px 0px rgba(20, 70, 32, 0.2);
     };
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 18px;
+    };
 `;
 
 export const LinkButtonIcon = styled(message)`
     margin-right: 18px;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        margin-right: 12px;
+    };
 `;

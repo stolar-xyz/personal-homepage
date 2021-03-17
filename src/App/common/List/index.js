@@ -3,10 +3,17 @@ import styled from "styled-components";
 export const List = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 16px;
+    grid-gap: 24px;
     padding: 32px 0 0 0;
     margin: 18px 0 0 0;
     border-top: 1px solid ${({ theme }) => theme.color.border.listBorder};
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        grid-template-columns: 1fr;
+        grid-gap: 18px;
+        padding: 12px 0 0 0;
+        margin: 12px 0 0 0;
+    };
 `;
 
 export const ListItem = styled.li`
@@ -22,5 +29,14 @@ export const ListItem = styled.li`
         min-width: 9px;
         min-height: 9px;
         margin-right: 16px;
+
+        @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+            min-width: 6px;
+            min-height: 6px;
+        };
     }
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 14px;
+    };
 `;

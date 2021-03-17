@@ -6,4 +6,9 @@ export const StyledSection = styled.section`
     border-radius: 4px;
     padding: 32px;
     margin: 72px 0;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        padding: 16px;
+        margin: 50px 0;
+    };
 `;

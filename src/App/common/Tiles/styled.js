@@ -3,6 +3,10 @@ import { ReactComponent as githubIcon } from "../../images/svgs/github.svg";
 
 export const StyledTiles = styled.section`
     margin: 72px 0;
+    
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        margin: 48px 0;
+    };
 `;
 
 export const Wrapper = styled.div`
@@ -19,10 +23,20 @@ export const ExtraTitleContent = styled.p`
     color: ${({ theme }) => theme.color.text.secondaryText};
     font-size: 20px;
     margin: 9px 0 0;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 18px;
+        margin: 16px 0 0;
+    };
 `;
 
 export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 32px;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    };
 `;

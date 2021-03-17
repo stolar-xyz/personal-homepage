@@ -11,7 +11,7 @@ const ThemeToggler = () => {
 
     return (
         <Label>
-            <ExtraTextContent>
+            <ExtraTextContent toggler>
                 Dark mode {isThemeDark ? "On" : "Off"}
             </ExtraTextContent>
             <Toggler>

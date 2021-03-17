@@ -11,28 +11,40 @@ export const StyledTile = styled.div`
     &:hover {
         border: 6px solid ${({ theme }) => theme.color.hover.tileBorder};
     }
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        padding: 24px;
+    };
 `;
 
 export const Wrapper = styled.div`
+    font-size: 18px;
     display: grid;
     grid-gap: 8px;
     grid-template-columns: repeat(2, auto);
     justify-content: start;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 14px;
+        grid-gap: 10px;
+    };
 `;
 
 export const Title = styled.h3`
     color: ${({ theme }) => theme.color.text.tileTitle};
     font-size: 24px;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 16px;
+    };
 `;
 
 export const LinkText = styled.span`
-    font-size: 18px;
     color: ${({ theme }) => theme.color.text.primaryText};
 `;
 
 export const Link = styled.a`
-    font-size: 18px;
     color: ${({ theme }) => theme.color.text.link};
     text-underline-offset: 2px;
     overflow-wrap: anywhere;

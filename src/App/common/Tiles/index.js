@@ -1,10 +1,10 @@
 import React from 'react'
 import Tile from '../Tile';
-import { Container, Wrapper, ExtraTitleContent, GithubIcon } from './styled';
+import { Container, Wrapper, ExtraTitleContent, GithubIcon, StyledTiles } from './styled';
 import Title from '../Title';
 
 const Tiles = () => (
-    <section>
+    <StyledTiles>
         <Wrapper>
             <GithubIcon />
             <Title
@@ -43,7 +43,7 @@ const Tiles = () => (
                 code={"https://link.code.com"}
             />
         </Container>
-    </section>
+    </StyledTiles>
 );
 
 export default Tiles;
