@@ -25,6 +25,7 @@ const Title = styled.h1`
         font-size: 32px;
         margin: 24px 0;
         transition: color 0.3s;
+        text-decoration: none;
 
         &:hover {
             color: ${({ theme }) => theme.color.hover.title};
