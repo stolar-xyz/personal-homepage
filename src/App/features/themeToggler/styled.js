@@ -12,7 +12,6 @@ export const Toggler = styled.div`
     display: flex;
     align-items: center;
     background: ${({ theme }) => theme.color.background.themeTogglerBackground};
-    margin-left: 14px;
     padding: 2px;
     border-radius: 20px;
     border: 1px solid #8C98A7;
