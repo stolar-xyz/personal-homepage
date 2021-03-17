@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledIconLinks = styled.div`
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        text-align: center;
+        align-self: center;
     };
 `;
 
