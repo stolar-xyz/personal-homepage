@@ -15,7 +15,7 @@ const Header = () => (
             <ExtraTextContent>
                 {"This is"}
             </ExtraTextContent>
-            <Title>
+            <Title header>
                 {"Andrzej Stolarek"}
             </Title>
             <Description header>

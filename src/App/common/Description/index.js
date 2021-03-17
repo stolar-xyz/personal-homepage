@@ -6,9 +6,11 @@ const Description = styled.p`
     color: ${({ theme }) => theme.color.text.primaryText};
     line-height: 1.4;
 
-    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        font-size: 14px;
-    };
+    ${({ tile }) => tile && css`
+        @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+            font-size: 14px;
+        };
+    `}
 
     ${({ header }) => header && css`
         font-size: 20px;
@@ -28,6 +30,7 @@ const Description = styled.p`
         max-width: 670px;
 
         @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+            font-size: 14px;
             margin: 0 0 40px 0;;
         };
     `}
