@@ -6,9 +6,11 @@ const Title = styled.h1`
     font-weight: 900;
     font-size: 38px;
 
-    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        font-size: 22px;
-    };
+    ${({ header }) => header && css`
+        @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+            font-size: 22px;
+        };
+    `}
 
     ${({ subtitle }) => subtitle && css`
         font-size: 30px;
