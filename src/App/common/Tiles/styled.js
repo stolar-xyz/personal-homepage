@@ -35,8 +35,11 @@ export const Container = styled.div`
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 32px;
 
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        grid-gap: 18px;
+    };
+
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         grid-template-columns: 1fr;
-        grid-gap: 16px;
     };
 `;

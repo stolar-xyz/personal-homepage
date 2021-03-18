@@ -8,6 +8,10 @@ export const List = styled.ul`
     margin: 18px 0 0 0;
     border-top: 1px solid ${({ theme }) => theme.color.border.listBorder};
 
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        grid-template-columns: repeat(2, 1fr);
+    };
+
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 18px;

@@ -5,8 +5,8 @@ const Container = styled.div`
     padding: 0 14px;
     margin: 119px auto;
 
-    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        margin: 31px 0;
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        margin: 31px auto;
     };
 `;
 

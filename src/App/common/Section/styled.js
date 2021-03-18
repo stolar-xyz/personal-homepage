@@ -7,8 +7,11 @@ export const StyledSection = styled.section`
     padding: 32px;
     margin: 72px 0;
 
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        margin: 50px 0;
+    };
+
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         padding: 16px;
-        margin: 50px 0;
     };
 `;

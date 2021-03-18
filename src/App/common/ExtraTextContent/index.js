@@ -10,7 +10,7 @@ const ExtraTextContent = styled.span`
     ${({ toggler }) => toggler && css`
         margin-right: 14px;
 
-        @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        @media (max-width: ${({ theme }) => theme.tabletMax}px) {
             display: none;
         };
     `};
