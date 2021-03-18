@@ -12,6 +12,10 @@ export const StyledTile = styled.div`
         border: 6px solid ${({ theme }) => theme.color.hover.tileBorder};
     }
 
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        padding: 38px;
+    };
+
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         padding: 24px;
     };
@@ -24,9 +28,12 @@ export const Wrapper = styled.div`
     grid-template-columns: repeat(2, auto);
     justify-content: start;
 
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        grid-gap: 10px;
+    };
+
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;
-        grid-gap: 10px;
     };
 `;
 

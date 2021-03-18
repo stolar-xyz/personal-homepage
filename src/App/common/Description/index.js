@@ -18,9 +18,12 @@ const Description = styled.p`
         max-width: 633px;
         line-height: 1.6;
 
+        @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+            margin: 16px 0 24px;
+        };
+
         @media (max-width: ${({ theme }) => theme.mobileMax}px) {
             font-size: 18px;
-            margin: 16px 0 24px;
         };
     `}
 
