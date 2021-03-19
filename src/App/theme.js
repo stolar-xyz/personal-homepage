@@ -9,7 +9,7 @@ const colors = {
 
 const breakPoints = {
     mobileMax: "767",
-    tabletMax: "1024",
+    tabletMax: "1023",
 };
 
 export const lightTheme = {
