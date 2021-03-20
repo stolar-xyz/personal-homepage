@@ -13,6 +13,7 @@ import { useSelector } from "react-redux";
 import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
+import Error from "./common/Error";
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
@@ -47,6 +48,7 @@ const App = () => {
             body={<LearnList />}
           />
           <Tiles />
+          <Error />
         </Main>
         <Footer />
       </Container>
