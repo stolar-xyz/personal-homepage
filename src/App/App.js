@@ -14,6 +14,7 @@ import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
 import Error from "./common/Error";
+import Loading from "./common/Loading";
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
@@ -49,6 +50,7 @@ const App = () => {
           />
           <Tiles />
           <Error />
+          <Loading />
         </Main>
         <Footer />
       </Container>
