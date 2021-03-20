@@ -4,6 +4,7 @@ const colors = {
     mariner: "#2B77CC",
     dodgerBlue: "#2188FF",
     paleSky: "#687585",
+    athensGray: "#EEF0F3",
     ironLight: "#D1D5DA1A",
 };
 
@@ -32,13 +33,15 @@ export const lightTheme = {
 
         border: {
             listBorder: "rgba(209, 213, 218, 0.8)",
-            tileBorder: "rgba(209, 213, 218, 0.3)",
+            tileBorder: colors.athensGray,
+            loaderBorder: colors.athensGray,
         },
 
         element: {
             ballColor: colors.white,
             icon: colors.mariner,
             iconLink: colors.mineShaft,
+            spinner: colors.mariner,
         },
 
         hover: {
@@ -73,12 +76,14 @@ export const darkTheme = {
         border: {
             listBorder: colors.ironLight,
             tileBorder: colors.ironLight,
+            loaderBorder: "rgba(54, 54, 54, 0.7)",
         },
 
         element: {
             ballColor: colors.mineShaft,
             icon: colors.dodgerBlue,
             iconLink: colors.white,
+            spinner: colors.dodgerBlue,
         },
 
         hover: {
