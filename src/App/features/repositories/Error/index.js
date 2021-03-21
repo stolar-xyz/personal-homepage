@@ -1,22 +1,7 @@
 import React from 'react'
-import { ExtraTitleContent, GithubIcon, StyledTiles, Wrapper } from '../Tiles/styled';
-import Title from '../../../common/Title';
 import { Button, DangerIcon, Description, Header, StyledError } from './styled';
 
 const Error = () => (
-    <StyledTiles>
-        <Wrapper>
-            <GithubIcon />
-            <Title
-                subtitle
-                as="h2"
-            >
-                {"Portfolio"}
-            </Title>
-            <ExtraTitleContent>
-                {"My recent projects"}
-            </ExtraTitleContent>
-        </Wrapper>
         <StyledError>
             <DangerIcon />
             <Header>
@@ -34,7 +19,6 @@ const Error = () => (
                 Go to Github
             </Button>
         </StyledError >
-    </StyledTiles>
 );
 
 export default Error;
