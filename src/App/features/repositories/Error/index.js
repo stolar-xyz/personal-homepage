@@ -1,6 +1,6 @@
 import React from 'react'
 import { ExtraTitleContent, GithubIcon, StyledTiles, Wrapper } from '../Tiles/styled';
-import Title from '../Title';
+import Title from '../../../common/Title';
 import { Button, DangerIcon, Description, Header, StyledError } from './styled';
 
 const Error = () => (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledLoading, Description, Loader } from './styled';
 import { ExtraTitleContent, GithubIcon, StyledTiles, Wrapper } from '../Tiles/styled';
-import Title from '../Title';
+import Title from '../../../common/Title';
 
 const Loading = () => (
     <StyledTiles>

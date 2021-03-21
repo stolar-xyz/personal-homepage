@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as githubIcon } from "../../images/svgs/github.svg";
+import { ReactComponent as githubIcon } from "../../../images/svgs/github.svg";
 
 export const StyledTiles = styled.section`
     margin: 72px 0;

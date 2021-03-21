@@ -1,7 +1,7 @@
 import React from 'react'
 import Tile from '../Tile';
 import { Container, Wrapper, ExtraTitleContent, GithubIcon, StyledTiles } from './styled';
-import Title from '../Title';
+import Title from '../../../common/Title';
 
 const Tiles = () => (
     <StyledTiles>

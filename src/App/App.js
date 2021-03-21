@@ -1,6 +1,6 @@
 import Section from "./common/Section";
 import SkillList from "./common/SkillList";
-import Tiles from "./common/Tiles";
+import Tiles from "./features/repositories/Tiles";
 import Title from "./common/Title";
 import Footer from "./common/Footer";
 import Container from "./common/Container";
@@ -13,8 +13,8 @@ import { useSelector } from "react-redux";
 import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
-import Error from "./common/Error";
-import Loading from "./common/Loading";
+import Error from "./features/repositories/Error";
+import Loading from "./features/repositories/Loading";
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
