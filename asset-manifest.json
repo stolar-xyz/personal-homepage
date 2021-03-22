@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.c467ee8a.chunk.js",
-    "main.js.map": "/personal-homepage/static/js/main.c467ee8a.chunk.js.map",
-    "runtime-main.js": "/personal-homepage/static/js/runtime-main.0b2ad115.js",
-    "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.0b2ad115.js.map",
-    "static/js/2.084b7a11.chunk.js": "/personal-homepage/static/js/2.084b7a11.chunk.js",
-    "static/js/2.084b7a11.chunk.js.map": "/personal-homepage/static/js/2.084b7a11.chunk.js.map",
-    "static/js/3.59710e63.chunk.js": "/personal-homepage/static/js/3.59710e63.chunk.js",
-    "static/js/3.59710e63.chunk.js.map": "/personal-homepage/static/js/3.59710e63.chunk.js.map",
+    "main.js": "/personal-homepage/static/js/main.37b33d72.chunk.js",
+    "main.js.map": "/personal-homepage/static/js/main.37b33d72.chunk.js.map",
+    "runtime-main.js": "/personal-homepage/static/js/runtime-main.1bbe832a.js",
+    "runtime-main.js.map": "/personal-homepage/static/js/runtime-main.1bbe832a.js.map",
+    "static/js/2.685a783a.chunk.js": "/personal-homepage/static/js/2.685a783a.chunk.js",
+    "static/js/2.685a783a.chunk.js.map": "/personal-homepage/static/js/2.685a783a.chunk.js.map",
+    "static/js/3.77ab1a4c.chunk.js": "/personal-homepage/static/js/3.77ab1a4c.chunk.js",
+    "static/js/3.77ab1a4c.chunk.js.map": "/personal-homepage/static/js/3.77ab1a4c.chunk.js.map",
     "index.html": "/personal-homepage/index.html",
-    "static/js/2.084b7a11.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.084b7a11.chunk.js.LICENSE.txt",
+    "static/js/2.685a783a.chunk.js.LICENSE.txt": "/personal-homepage/static/js/2.685a783a.chunk.js.LICENSE.txt",
+    "static/media/danger.f15bfc83.svg": "/personal-homepage/static/media/danger.f15bfc83.svg",
     "static/media/facebook.c92d6cf6.svg": "/personal-homepage/static/media/facebook.c92d6cf6.svg",
     "static/media/github.af0b0eb0.svg": "/personal-homepage/static/media/github.af0b0eb0.svg",
     "static/media/githubExtra.5746a0bd.svg": "/personal-homepage/static/media/githubExtra.5746a0bd.svg",
@@ -20,8 +21,8 @@
     "static/media/sun.fdb52f73.svg": "/personal-homepage/static/media/sun.fdb52f73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b2ad115.js",
-    "static/js/2.084b7a11.chunk.js",
-    "static/js/main.c467ee8a.chunk.js"
+    "static/js/runtime-main.1bbe832a.js",
+    "static/js/2.685a783a.chunk.js",
+    "static/js/main.37b33d72.chunk.js"
   ]
 }
