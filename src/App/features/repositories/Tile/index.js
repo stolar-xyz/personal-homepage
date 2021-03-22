@@ -15,22 +15,22 @@ const Tile = ({ header, description, demo, code }) => (
                 Demo:
             </LinkText>
             <Link
-                href="https://www.google.com/"
+                href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 {demo}
             </Link>
-        <LinkText>
-            Code:
+            <LinkText>
+                Code:
             </LinkText>
-        <Link
-            href="https://www.google.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            {code}
-        </Link>
+            <Link
+                href={code}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {code}
+            </Link>
         </Wrapper>
     </StyledTile >
 );
