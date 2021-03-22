@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button, DangerIcon, Description, Header, StyledError } from './styled';
+import { Button, DangerIcon, Description, Header, StyledFailure } from './styled';
 
-const Error = () => (
-        <StyledError>
+const Failure = () => (
+        <StyledFailure>
             <DangerIcon />
             <Header>
                 Ooops! Something went wrong...
@@ -15,10 +15,10 @@ const Error = () => (
                 href="https://github.com/stolar-code?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Github repository">
+                title="Github repositories">
                 Go to Github
             </Button>
-        </StyledError >
+        </StyledFailure >
 );
 
-export default Error;
+export default Failure;

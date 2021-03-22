@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { ReactComponent as dangerIcon } from "../../../images/svgs/danger.svg";
 
-export const StyledError = styled.div`
+export const StyledFailure = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
