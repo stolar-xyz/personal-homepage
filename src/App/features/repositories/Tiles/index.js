@@ -3,7 +3,7 @@ import Tile from '../Tile';
 import Loading from "../Loading";
 import Failure from '../Failure';
 import Title from '../../../common/Title';
-import { Container, Wrapper, ExtraTitleContent, GithubIcon, StyledTiles } from './styled';
+import { Container, Wrapper, ExtraTitleContent, GithubIcon } from './styled';
 import { useSelector } from "react-redux";
 import { selectContent, selectStatus } from '../repositoriesSlice';;
 
@@ -12,7 +12,7 @@ const Tiles = () => {
     const repositories = useSelector(selectContent);
 
     return (
-        <StyledTiles>
+        <section>
             <Wrapper>
                 <GithubIcon />
                 <Title
@@ -47,7 +47,7 @@ const Tiles = () => {
                         </Container>
                     )
             }
-        </StyledTiles>
+        </section>
     );
 };
 
