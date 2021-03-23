@@ -6,7 +6,6 @@ import Footer from "./common/Footer";
 import Container from "./common/Container";
 import Header from "./common/Header";
 import LearnList from "./common/LearnList";
-import Main from "./common/Main";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./theme";
 import { useSelector } from "react-redux";
@@ -23,7 +22,7 @@ const App = () => {
       <Normalize />
       <Container>
         <Header />
-        <Main>
+        <main>
           <Section
             title={
               <Title
@@ -47,7 +46,7 @@ const App = () => {
             body={<LearnList />}
           />
           <Tiles />
-        </Main>
+        </main>
         <Footer />
       </Container>
     </ThemeProvider>
