@@ -4,7 +4,7 @@ import { setContent, setStatus } from "./repositoriesSlice";
 
 function* fetchRepositoriesHandler() {
     try {
-        yield delay(1000);
+        yield delay(2000);
         const repositories = yield call(getRepositories);
         yield put(setContent(repositories));
         yield put(setStatus("success"));
