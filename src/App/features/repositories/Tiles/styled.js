@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { ReactComponent as githubIcon } from "../../../images/svgs/github.svg";
 
 export const StyledTiles = styled.section`
-    margin: 72px 0;
+    margin: 72px 0 140px;
     
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         margin: 48px 0;
@@ -11,7 +11,6 @@ export const StyledTiles = styled.section`
 
 export const Wrapper = styled.div`
     text-align: center;
-    margin-bottom: 24px;
 `;
 
 export const GithubIcon = styled(githubIcon)`
@@ -22,11 +21,11 @@ export const GithubIcon = styled(githubIcon)`
 export const ExtraTitleContent = styled.p`
     color: ${({ theme }) => theme.color.text.secondaryText};
     font-size: 20px;
-    margin: 9px 0 0;
+    margin: 9px 0 24px;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 18px;
-        margin: 16px 0 0;
+        margin: 16px 0 24px;
     };
 `;
 
