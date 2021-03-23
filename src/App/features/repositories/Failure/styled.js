@@ -3,13 +3,17 @@ import { ReactComponent as dangerIcon } from "../../../images/svgs/danger.svg";
 
 export const StyledFailure = styled.div`
     text-align: center;
-    margin-top: 96px;
+    margin: 96px 0 140px;
 `;
 
 export const Header = styled.h3`
     font-size: 24px;
     margin: 24px 0 0 0;
     color: ${({ theme }) => theme.color.text.secondaryText};
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 16px;
+    };
 `;
 
 export const Description = styled.p`
@@ -17,6 +21,11 @@ export const Description = styled.p`
     margin: 32px 0;
     color: ${({ theme }) => theme.color.text.secondaryText};
     line-height: 1.4;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 14px;
+        margin: 24px 0;
+    };
 `;
 
 export const Button = styled.a`
@@ -41,7 +50,8 @@ export const Button = styled.a`
     };
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        font-size: 18px;
+        font-size: 14px;
+        padding: 8px 12px;
     };
 `;
 
