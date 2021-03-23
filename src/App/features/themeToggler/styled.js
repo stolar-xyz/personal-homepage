@@ -1,22 +1,31 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Label = styled.label`
+export const Toggler = styled.button`
     display: flex;
     align-items: center;
+    background: none;
+    border: none;
     position: absolute;
     right: 0;
+    padding: 0;
     cursor: pointer;
+
+    ${({ clicked }) => clicked && css`
+        ${Ball} {
+            transform: translateX(calc(100% + 4px));
+        };
+    `};
 `;
 
-export const Toggler = styled.div`
+export const TogglerField = styled.div`
     display: flex;
     align-items: center;
-    background: ${({ theme }) => theme.color.background.themeTogglerBackground};
     padding: 2px;
     border-radius: 20px;
     border: 1px solid #8C98A7;
     width: 50px;
     height: 25px;
+    background: ${({ theme }) => theme.color.background.themeTogglerBackground};
 `;
 
 export const Ball = styled.div`
@@ -29,12 +38,4 @@ export const Ball = styled.div`
     height: 20px;
     width: 20px;
     transition: background 0.3s, transform 0.5s;
-`;
-
-export const CheckBox = styled.input`
-    display: none;
-
-    &:checked + ${Ball} {
-        transform: translateX(calc(100% + 4px));
-    };
 `;
