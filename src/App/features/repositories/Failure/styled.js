@@ -2,10 +2,8 @@ import styled from 'styled-components';
 import { ReactComponent as dangerIcon } from "../../../images/svgs/danger.svg";
 
 export const StyledFailure = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 96px 140px;
+    text-align: center;
+    margin-top: 96px;
 `;
 
 export const Header = styled.h3`
@@ -19,12 +17,10 @@ export const Description = styled.p`
     margin: 32px 0;
     color: ${({ theme }) => theme.color.text.secondaryText};
     line-height: 1.4;
-    text-align: center;
 `;
 
 export const Button = styled.a`
-    display: flex;
-    align-items: center;
+    display: inline-block;
     padding: 12px 16px;
     border: 1px solid rgba(209, 213, 218, 0.3);
     background: ${({ theme }) => theme.color.background.linkButtonBackground};
