@@ -17,7 +17,7 @@ export const Toggler = styled.button`
     `};
 `;
 
-export const TogglerField = styled.div`
+export const TogglerField = styled.span`
     display: flex;
     align-items: center;
     padding: 2px;
@@ -28,7 +28,7 @@ export const TogglerField = styled.div`
     background: ${({ theme }) => theme.color.background.themeTogglerBackground};
 `;
 
-export const Ball = styled.div`
+export const Ball = styled.span`
     display: flex;
     align-items: center;
     justify-content: center;
