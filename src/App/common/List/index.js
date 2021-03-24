@@ -25,13 +25,13 @@ export const ListItem = styled.li`
         content: "";
         background: #0366D6;
         border-radius: 50%;
-        min-width: 9px;
-        min-height: 9px;
+        width: 9px;
+        height: 9px;
         margin-right: 16px;
 
         @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-            min-width: 6px;
-            min-height: 6px;
+            width: 6px;
+            height: 6px;
         };
     }
 
