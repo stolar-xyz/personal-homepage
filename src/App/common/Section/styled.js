@@ -8,7 +8,7 @@ export const StyledSection = styled.section`
     margin: 72px 0;
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
-        margin: 50px 0;
+        margin: 54px 0;
     };
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
