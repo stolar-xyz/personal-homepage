@@ -12,7 +12,8 @@ const ThemeToggler = () => {
     return (
         <Toggler
             onClick={() => dispatch(toggleDarkTheme())}
-            clicked={isThemeDark}>
+            clicked={isThemeDark}
+            title={"Toggle theme"}>
             <ExtraTextContent toggler>
                 Dark mode {isThemeDark ? "On" : "Off"}
             </ExtraTextContent>
