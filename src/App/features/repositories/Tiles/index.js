@@ -38,7 +38,7 @@ const Tiles = () => {
                             {repositories.map(repository => (
                                 <Tile
                                     key={repository.id}
-                                    header={repository.name}
+                                    title={repository.name}
                                     description={repository.description}
                                     demo={repository.homepage}
                                     code={repository.html_url}
