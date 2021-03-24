@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, DangerIcon, Description, Header, StyledFailure } from './styled';
+import ButtonLink from '../../../common/ButtonLink';
+import { DangerIcon, Description, Header, StyledFailure } from './styled';
 
 const Failure = () => (
         <StyledFailure>
@@ -11,13 +12,13 @@ const Failure = () => (
                 Sorry, failed to load Github projects. <br />
                 You can check them directly on Github.
             </Description>
-            <Button
+            <ButtonLink
                 href="https://github.com/stolar-code?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Github repositories">
                 Go to Github
-            </Button>
+            </ButtonLink>
         </StyledFailure >
 );
 
