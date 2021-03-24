@@ -19,10 +19,10 @@ const Tiles = () => {
                     subtitle
                     as="h2"
                 >
-                    {"Portfolio"}
+                    Portfolio
                 </Title>
                 <ExtraTitleContent>
-                    {"My recent projects"}
+                    My recent projects
                 </ExtraTitleContent>
             </Wrapper>
             {repositoriesStatus === "loading"

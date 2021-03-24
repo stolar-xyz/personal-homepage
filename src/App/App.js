@@ -29,7 +29,7 @@ const App = () => {
                 subtitle
                 as="h2"
               >
-                {"My skillset includes 🛠️"}
+                My skillset includes 🛠️
               </Title>
             }
             body={<SkillList />}
@@ -40,7 +40,7 @@ const App = () => {
                 subtitle
                 as="h2"
               >
-                {"What I want to learn next 🚀"}
+                What I want to learn next 🚀
               </Title>
             }
             body={<LearnList />}
