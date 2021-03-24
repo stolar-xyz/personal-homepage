@@ -3,12 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const repositoriesSlice = createSlice({
     name: "repositories",
     initialState: {
-        content: [],
+        repositories: [],
         status: "loading",
     },
     reducers: {
-        setContent: (state, { payload: repositories }) => {
-            state.content = repositories;
+        setRepositories: (state, { payload: repositories }) => {
+            state.repositories = repositories;
         },
         setStatus: (state, { payload }) => {
             state.status = payload;
@@ -17,11 +17,11 @@ const repositoriesSlice = createSlice({
 });
 
 export const {
-    setContent,
+    setRepositories,
     setStatus,
 } = repositoriesSlice.actions;
 
 export const selectStatus = state => state.repositories.status;
-export const selectContent = state => state.repositories.content;
+export const selectRepositories = state => state.repositories.repositories;
 
 export default repositoriesSlice.reducer;

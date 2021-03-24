@@ -5,11 +5,11 @@ import Failure from '../Failure';
 import Title from '../../../common/Title';
 import { Container, Wrapper, ExtraTitleContent, GithubIcon } from './styled';
 import { useSelector } from "react-redux";
-import { selectContent, selectStatus } from '../repositoriesSlice';;
+import { selectRepositories, selectStatus } from '../repositoriesSlice';;
 
 const Tiles = () => {
     const repositoriesStatus = useSelector(selectStatus);
-    const repositories = useSelector(selectContent);
+    const repositories = useSelector(selectRepositories);
 
     return (
         <section>
