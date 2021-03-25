@@ -7,13 +7,13 @@ export const Wrapper = styled.div`
 
 export const GithubIcon = styled(githubIcon)`
     color: ${({ theme }) => theme.color.element.icon};
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 `;
 
-export const ExtraTitleContent = styled.p`
+export const ExtraSubheaderContent = styled.p`
     color: ${({ theme }) => theme.color.text.secondaryText};
     font-size: 20px;
-    margin: 9px 0 0;
+    margin: 8px 0 0;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 18px;
