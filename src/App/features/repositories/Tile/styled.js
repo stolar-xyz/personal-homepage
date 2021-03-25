@@ -47,6 +47,17 @@ export const Title = styled.h3`
     };
 `;
 
+export const Description = styled.p`
+    font-size: 18px;
+    margin: 24px 0;
+    color: ${({ theme }) => theme.color.text.primaryText};
+    line-height: 1.4;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 14px;
+    };
+`;
+
 export const LinkText = styled.span`
     color: ${({ theme }) => theme.color.text.primaryText};
 `;

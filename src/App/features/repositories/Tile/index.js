@@ -1,13 +1,12 @@
 import React from 'react'
-import Description from '../../../common/Description';
-import { LinkText, StyledTile, Link, Wrapper, Title } from './styled';
+import { LinkText, StyledTile, Link, Wrapper, Title, Description } from './styled';
 
 const Tile = ({ title, description, demo, code }) => (
     <StyledTile>
         <Title>
             {title}
         </Title>
-        <Description tile>
+        <Description>
             {description}
         </Description>
         <Wrapper>
