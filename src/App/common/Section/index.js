@@ -1,9 +1,12 @@
 import React from 'react'
+import Subheader from '../Subheader';
 import { StyledSection } from './styled';
 
 const Section = ({ title, body }) => (
     <StyledSection>
-        {title}
+        <Subheader>
+            {title}
+        </Subheader>
         {body}
     </StyledSection>
 );
