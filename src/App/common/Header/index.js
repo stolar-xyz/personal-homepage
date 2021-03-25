@@ -1,11 +1,9 @@
 import React from 'react'
 import ThemeToggler from '../../features/themeToggler/ThemeToggler';
-import Description from '../Description';
 import ExtraTextContent from '../ExtraTextContent';
 import { FlexWrapper } from '../FlexWrapper';
 import Profile from '../Profile';
-import Title from '../Title';
-import { MessageIcon, StyledHeader } from './styled';
+import { MessageIcon, StyledHeader, Description, Title } from './styled';
 import ButtonLink from '../ButtonLink';
 
 const Header = () => (
@@ -16,10 +14,10 @@ const Header = () => (
             <ExtraTextContent>
                 This is
             </ExtraTextContent>
-            <Title header>
+            <Title>
                 Andrzej Stolarek
             </Title>
-            <Description header>
+            <Description>
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </Description>
             <ButtonLink header

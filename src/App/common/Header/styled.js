@@ -10,6 +10,33 @@ export const StyledHeader = styled.header`
     };
 `;
 
+export const Title = styled.h1`
+    color: ${({ theme }) => theme.color.text.title};
+    margin: 12px 0 0 0;
+    font-weight: 900;
+    font-size: 38px;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 22px;
+    };
+`;
+
+export const Description = styled.p`
+    color: ${({ theme }) => theme.color.text.primaryText};
+    font-size: 20px;
+    margin: 35px 0 32px;
+    max-width: 633px;
+    line-height: 1.6;
+
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        margin: 16px 0 24px;
+    };
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 18px;
+    };
+`;
+
 export const MessageIcon = styled(message)`
     margin-right: 18px;
 
