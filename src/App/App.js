@@ -1,10 +1,10 @@
-import Section from "./common/Section";
-import SkillList from "./common/SkillList";
+import Container from "./common/styled/Container";
+import Section from "./common/structure/Section";
+import SkillList from "./common/structure/SkillList";
+import Footer from "./common/structure/Footer";
+import Header from "./common/structure/Header";
+import LearnList from "./common/structure/LearnList";
 import Tiles from "./features/repositories/Tiles";
-import Footer from "./common/Footer";
-import Container from "./common/Container";
-import Header from "./common/Header";
-import LearnList from "./common/LearnList";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./theme";
 import { useSelector } from "react-redux";

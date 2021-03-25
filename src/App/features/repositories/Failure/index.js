@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonLink from '../../../common/ButtonLink';
+import ButtonLink from '../../../common/styled/ButtonLink';
 import { DangerIcon, Description, Header, StyledFailure } from './styled';
 
 const Failure = () => (

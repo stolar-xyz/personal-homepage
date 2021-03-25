@@ -1,9 +1,9 @@
 import React from 'react'
 import { IconLink, StyledIconLinks } from './styled';
-import { ReactComponent as GithubExtraIcon } from "../../images/svgs/githubExtra.svg";
-import { ReactComponent as FacebookIcon } from "../../images/svgs/facebook.svg";
-import { ReactComponent as LinkedInIcon } from "../../images/svgs/linkedIn.svg";
-import { ReactComponent as InstagramIcon } from "../../images/svgs/instagram.svg";
+import { ReactComponent as GithubExtraIcon } from "../../../images/svgs/githubExtra.svg";
+import { ReactComponent as FacebookIcon } from "../../../images/svgs/facebook.svg";
+import { ReactComponent as LinkedInIcon } from "../../../images/svgs/linkedIn.svg";
+import { ReactComponent as InstagramIcon } from "../../../images/svgs/instagram.svg";
 
 const IconLinks = () => (
     <StyledIconLinks>

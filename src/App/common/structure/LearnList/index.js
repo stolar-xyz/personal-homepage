@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, ListItem } from "../List";
+import { List, ListItem } from "../../styled/List";
 
 const LearnList = () => (
     <List>

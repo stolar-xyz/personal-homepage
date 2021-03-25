@@ -1,7 +1,7 @@
 import React from 'react'
-import ExtraTextContent from '../ExtraTextContent'
-import { FlexWrapper } from '../FlexWrapper';
+import ExtraTextContent from '../../styled/ExtraTextContent';
 import IconLinks from '../IconLinks';
+import { FlexWrapper } from '../../styled/FlexWrapper';
 import { Description, Email } from './styled';
 
 const Footer = () => (

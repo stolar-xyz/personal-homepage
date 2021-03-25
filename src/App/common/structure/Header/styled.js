@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as message } from "../../images/svgs/message.svg";
+import { ReactComponent as message } from "../../../images/svgs/message.svg";
 
 export const StyledHeader = styled.header`
     display: flex;

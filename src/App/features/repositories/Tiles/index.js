@@ -2,7 +2,7 @@ import React from 'react'
 import Tile from '../Tile';
 import Loading from "../Loading";
 import Failure from '../Failure';
-import Subheader from '../../../common/Subheader';
+import Subheader from '../../../common/styled/Subheader';
 import { Container, Wrapper, ExtraSubheaderContent, GithubIcon } from './styled';
 import { useSelector } from "react-redux";
 import { selectRepositories, selectStatus } from '../repositoriesSlice';

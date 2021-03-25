@@ -1,5 +1,5 @@
 import React from 'react'
-import Subheader from '../Subheader';
+import Subheader from '../../styled/Subheader';
 import { StyledSection } from './styled';
 
 const Section = ({ title, body }) => (

@@ -1,10 +1,10 @@
 import React from 'react'
-import ThemeToggler from '../../features/themeToggler/ThemeToggler';
-import ExtraTextContent from '../ExtraTextContent';
-import { FlexWrapper } from '../FlexWrapper';
+import ThemeToggler from '../../../features/themeToggler/ThemeToggler';
+import ExtraTextContent from '../../styled/ExtraTextContent';
+import ButtonLink from '../../styled/ButtonLink';
 import Profile from '../Profile';
+import { FlexWrapper } from '../../styled/FlexWrapper';
 import { MessageIcon, StyledHeader, Description, Title } from './styled';
-import ButtonLink from '../ButtonLink';
 
 const Header = () => (
     <StyledHeader>
