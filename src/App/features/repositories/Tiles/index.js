@@ -2,10 +2,10 @@ import React from 'react'
 import Tile from '../Tile';
 import Loading from "../Loading";
 import Failure from '../Failure';
-import Title from '../../../common/Title';
-import { Container, Wrapper, ExtraTitleContent, GithubIcon } from './styled';
+import Subheader from '../../../common/Subheader';
+import { Container, Wrapper, ExtraSubheaderContent, GithubIcon } from './styled';
 import { useSelector } from "react-redux";
-import { selectRepositories, selectStatus } from '../repositoriesSlice';;
+import { selectRepositories, selectStatus } from '../repositoriesSlice';
 
 const Tiles = () => {
     const repositoriesStatus = useSelector(selectStatus);
@@ -15,15 +15,12 @@ const Tiles = () => {
         <section>
             <Wrapper>
                 <GithubIcon />
-                <Title
-                    subtitle
-                    as="h2"
-                >
+                <Subheader>
                     Portfolio
-                </Title>
-                <ExtraTitleContent>
+                </Subheader>
+                <ExtraSubheaderContent>
                     My recent projects
-                </ExtraTitleContent>
+                </ExtraSubheaderContent>
             </Wrapper>
             {repositoriesStatus === "loading"
                 ? (
