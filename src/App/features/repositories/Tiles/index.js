@@ -32,13 +32,13 @@ const Tiles = () => {
                     )
                     : (
                         <Container>
-                            {repositories.map(repository => (
+                            {repositories.map(({ id, name, description, homepage, html_url }) => (
                                 <Tile
-                                    key={repository.id}
-                                    title={repository.name}
-                                    description={repository.description}
-                                    demo={repository.homepage}
-                                    code={repository.html_url}
+                                    key={id}
+                                    title={name}
+                                    description={description}
+                                    demo={homepage}
+                                    code={html_url}
                                 />
                             ))}
                         </Container>
