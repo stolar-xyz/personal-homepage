@@ -1,7 +1,6 @@
 import Section from "./common/Section";
 import SkillList from "./common/SkillList";
 import Tiles from "./features/repositories/Tiles";
-import Title from "./common/Title";
 import Footer from "./common/Footer";
 import Container from "./common/Container";
 import Header from "./common/Header";
@@ -24,25 +23,11 @@ const App = () => {
         <Header />
         <main>
           <Section
-            title={
-              <Title
-                subtitle
-                as="h2"
-              >
-                My skillset includes 🛠️
-              </Title>
-            }
+            title={"My skillset includes 🛠️"}
             body={<SkillList />}
           />
           <Section
-            title={
-              <Title
-                subtitle
-                as="h2"
-              >
-                What I want to learn next 🚀
-              </Title>
-            }
+            title={"What I want to learn next 🚀"}
             body={<LearnList />}
           />
           <Tiles />
