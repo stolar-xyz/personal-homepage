@@ -3,7 +3,7 @@ import Tile from '../Tile';
 import Loading from "../Loading";
 import Failure from '../Failure';
 import Subheader from '../../../common/styled/Subheader';
-import { Container, Wrapper, ExtraSubheaderContent, GithubIcon } from './styled';
+import { Container, Wrapper, ExtraSubheaderContent, Icon } from './styled';
 import { useSelector } from "react-redux";
 import { selectRepositories, selectStatus } from '../repositoriesSlice';
 
@@ -14,7 +14,7 @@ const Tiles = () => {
     return (
         <section>
             <Wrapper>
-                <GithubIcon />
+                <Icon />
                 <Subheader>
                     Portfolio
                 </Subheader>

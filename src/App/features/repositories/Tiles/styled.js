@@ -1,13 +1,18 @@
 import styled from 'styled-components';
-import { ReactComponent as githubIcon } from "../../../images/svgs/github.svg";
+import { ReactComponent as GithubIcon } from "../../../images/svgs/github.svg";
 
 export const Wrapper = styled.div`
     text-align: center;
 `;
 
-export const GithubIcon = styled(githubIcon)`
+export const Icon = styled(GithubIcon)`
     color: ${({ theme }) => theme.color.element.icon};
     margin-bottom: 13px;
+    
+    @media(max-width: ${({ theme }) => theme.mobileMax}px) {
+        width: 32px;
+        height: 32px;
+    };
 `;
 
 export const ExtraSubheaderContent = styled.p`
