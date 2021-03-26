@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const repositoriesUrl = "https://api.github.com/users/stolar-code/repos";
+import { repositoriesUrl } from "../../personalInfo";
 
 export const getRepositories = async () => {
     const response = await axios.get(repositoriesUrl);
