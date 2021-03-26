@@ -5,6 +5,7 @@ import ButtonLink from '../../styled/ButtonLink';
 import Profile from '../Profile';
 import { FlexWrapper } from '../../styled/FlexWrapper';
 import { MessageIcon, StyledHeader, Description, Title } from './styled';
+import { email } from '../../../personalInfo';
 
 const Header = () => (
     <StyledHeader>
@@ -21,8 +22,8 @@ const Header = () => (
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities.
             </Description>
             <ButtonLink header
-                href="mailto:stolar.code@gmail.com"
-                title="stolar.code@gmail.com">
+                href={`mailto:${email}`}
+                title={email}>
                 <MessageIcon /> Hire me
             </ButtonLink>
         </FlexWrapper>
