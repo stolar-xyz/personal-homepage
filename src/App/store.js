@@ -11,7 +11,7 @@ const store = configureStore({
         theme: themeReducer,
         repositories: repositoriesReducer,
     },
-    middleware: [sagaMiddleware]
+    middleware: [sagaMiddleware],
 });
 
 sagaMiddleware.run(rootSaga);

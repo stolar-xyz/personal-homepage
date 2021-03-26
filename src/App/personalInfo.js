@@ -4,8 +4,8 @@ import { ReactComponent as FacebookIcon } from "./images/svgs/facebook.svg";
 import { ReactComponent as LinkedInIcon } from "./images/svgs/linkedIn.svg";
 import { ReactComponent as InstagramIcon } from "./images/svgs/instagram.svg";
 
-const primaryNickname = "stolar.xyz"
-const secondaryNickname = "stolar-code"
+const primaryNickname = "stolar.xyz";
+const secondaryNickname = "stolar-code";
 
 export const repositoriesUrl = `https://api.github.com/users/${secondaryNickname}/repos`;
 export const email = `${secondaryNickname}@gmail.com`;

@@ -33,7 +33,7 @@ export const ListItem = styled.li`
             width: 6px;
             height: 6px;
         };
-    }
+    };
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;

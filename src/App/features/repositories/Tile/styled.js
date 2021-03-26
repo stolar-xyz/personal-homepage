@@ -10,7 +10,7 @@ export const StyledTile = styled.div`
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.color.hover.tileBorder};
-    }
+    };
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
         padding: 38px;

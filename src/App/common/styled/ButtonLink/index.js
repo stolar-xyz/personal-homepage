@@ -16,7 +16,7 @@ const ButtonLink = styled.a`
     ${({ header }) => header && css`
         display: flex;
         align-items: center;
-    `}
+    `};
 
     &:hover {
         box-shadow: 0px 0px 0px 2px ${({ theme }) => theme.color.hover.buttonShadow};

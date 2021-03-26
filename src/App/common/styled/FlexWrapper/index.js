@@ -7,5 +7,5 @@ export const FlexWrapper = styled.div`
 
     ${({ header }) => header && css`
         justify-content: center;
-    `}
+    `};
 `;
