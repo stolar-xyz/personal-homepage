@@ -1,7 +1,7 @@
 import Icon from "./common/styled/Icon";
 import { ReactComponent as GithubExtraIcon } from "./images/svgs/githubExtra.svg";
 import { ReactComponent as FacebookIcon } from "./images/svgs/facebook.svg";
-import { ReactComponent as LinkedInIcon } from "./images/svgs/linkedIn.svg";
+import { ReactComponent as LinkedinIcon } from "./images/svgs/linkedin.svg";
 import { ReactComponent as InstagramIcon } from "./images/svgs/instagram.svg";
 
 const primaryNickname = "stolar.xyz";
@@ -13,7 +13,7 @@ export const email = `${secondaryNickname}@gmail.com`;
 export const socials = [
     {
         Icon: Icon(GithubExtraIcon),
-        title: "Github",
+        title: "GitHub",
         link: `https://github.com/${secondaryNickname}/`,
     },
     {
@@ -22,7 +22,7 @@ export const socials = [
         link: `https://www.facebook.com/${primaryNickname}/`,
     },
     {
-        Icon: Icon(LinkedInIcon),
+        Icon: Icon(LinkedinIcon),
         title: "LinkedIn",
         link: `https://www.linkedin.com/in/${secondaryNickname}/`,
     },
@@ -33,7 +33,7 @@ export const socials = [
     },
 ];
 
-export const skillset = [
+export const skillSet = [
     "Semantic & accessible HTML",
     "Responsive Web Design",
     "CSS BEM methodology",

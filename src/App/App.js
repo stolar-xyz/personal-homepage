@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
-import { skillset, learnNext } from "./personalInfo";
+import { skillSet, learnNext } from "./personalInfo";
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
@@ -25,7 +25,7 @@ const App = () => {
           <Section
             title={"My skillset includes 🛠️"}
             body={<List
-              items={skillset}
+              items={skillSet}
             />}
           />
           <Section
