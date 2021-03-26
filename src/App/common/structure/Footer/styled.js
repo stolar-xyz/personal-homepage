@@ -30,3 +30,22 @@ export const Email = styled.a`
         margin: 12px 0;
     };
 `;
+
+export const IconLinks = styled.div`
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        align-self: center;
+    };
+`;
+
+export const IconLink = styled.a`
+    color: ${({ theme }) => theme.color.element.iconLink};
+    transition: color 0.3s;
+
+    &:hover {
+        color: ${({ theme }) => theme.color.hover.iconLink};
+    };
+`;
