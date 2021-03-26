@@ -2,15 +2,22 @@ import React from 'react'
 import ThemeToggler from '../../../features/themeToggler/ThemeToggler';
 import ExtraTextContent from '../../styled/ExtraTextContent';
 import ButtonLink from '../../styled/ButtonLink';
-import Profile from '../Profile';
+import LazyLoad from 'react-lazyload';
+import profile from "../../../images/profile.jpg";
 import { FlexWrapper } from '../../styled/FlexWrapper';
-import { MessageIcon, StyledHeader, Description, Title } from './styled';
+import { MessageIcon, StyledHeader, Description, Title, Profile } from './styled';
 import { email } from '../../../personalInfo';
+
 
 const Header = () => (
     <StyledHeader>
         <ThemeToggler />
-        <Profile />
+        <LazyLoad>
+            <Profile
+                src={profile}
+                alt="Author photo"
+            />
+        </LazyLoad>
         <FlexWrapper header>
             <ExtraTextContent>
                 This is
