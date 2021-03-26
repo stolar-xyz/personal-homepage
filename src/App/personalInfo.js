@@ -8,28 +8,28 @@ const primaryNickname = "stolar.xyz"
 const secondaryNickname = "stolar-code"
 
 export const repositoriesUrl = `https://api.github.com/users/${secondaryNickname}/repos`;
-export const email = "stolar.xyz@gmail.com";
+export const email = `${secondaryNickname}@gmail.com`;
 
 export const socials = [
     {
         Icon: Icon(GithubExtraIcon),
         title: "Github",
-        link: "https://github.com/stolar-code/",
+        link: `https://github.com/${secondaryNickname}/`,
     },
     {
         Icon: Icon(FacebookIcon),
         title: "Facebook",
-        link: "https://www.facebook.com/ctucb/",
+        link: `https://www.facebook.com/${primaryNickname}/`,
     },
     {
         Icon: Icon(LinkedInIcon),
         title: "LinkedIn",
-        link: "https://www.linkedin.com/in/stolar-code/",
+        link: `https://www.linkedin.com/in/${secondaryNickname}/`,
     },
     {
         Icon: Icon(InstagramIcon),
         title: "Instagram",
-        link: "https://www.instagram.com/stolar.xyz/",
+        link: `https://www.instagram.com/${primaryNickname}/`,
     },
 ];
 
