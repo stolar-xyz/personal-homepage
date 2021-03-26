@@ -1,16 +1,16 @@
 import Container from "./common/styled/Container";
 import Section from "./common/structure/Section";
-import SkillList from "./common/structure/SkillList";
 import Footer from "./common/structure/Footer";
 import Header from "./common/structure/Header";
-import LearnList from "./common/structure/LearnList";
 import Tiles from "./features/repositories/Tiles";
+import List from "./common/structure/List";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./theme";
 import { useSelector } from "react-redux";
 import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
+import { skillset, learnNext } from "./personalInfo";
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
@@ -24,11 +24,15 @@ const App = () => {
         <main>
           <Section
             title={"My skillset includes 🛠️"}
-            body={<SkillList />}
+            body={<List
+              items={skillset}
+            />}
           />
           <Section
             title={"What I want to learn next 🚀"}
-            body={<LearnList />}
+            body={<List 
+              items={learnNext}
+            />}
           />
           <Tiles />
         </main>
