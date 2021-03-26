@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as message } from "../../../images/svgs/message.svg";
+import { ReactComponent as Message } from "../../../images/svgs/message.svg";
 
 export const StyledHeader = styled.header`
     display: flex;
@@ -37,10 +37,12 @@ export const Description = styled.p`
     };
 `;
 
-export const MessageIcon = styled(message)`
+export const MessageIcon = styled(Message)`
     margin-right: 18px;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         margin-right: 12px;
+        width: 20px;
+        height: 18px;
     };
 `;
