@@ -7,8 +7,9 @@ import { ReactComponent as InstagramIcon } from "./images/svgs/instagram.svg";
 const primaryNickname = "stolar.xyz";
 const secondaryNickname = "stolar-code";
 
-export const repositoriesUrl = `https://api.github.com/users/${secondaryNickname}/repos`;
-export const email = `${secondaryNickname}@gmail.com`;
+export const repositoriesUrl = `https://github.com/${secondaryNickname}?tab=repositories`;
+export const repositoriesApi = `https://api.github.com/users/${secondaryNickname}/repos`;
+export const email = `stolar.code@gmail.com`;
 
 export const socials = [
     {
