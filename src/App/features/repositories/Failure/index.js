@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonLink from '../../../common/styled/ButtonLink';
 import { DangerIcon, Description, Header, StyledFailure } from './styled';
+import { repositoriesUrl } from '../../../personalInfo';
 
 const Failure = () => (
         <StyledFailure>
@@ -9,15 +10,15 @@ const Failure = () => (
                 Ooops! Something went wrong...
             </Header>
             <Description>
-                Sorry, failed to load Github projects. <br />
-                You can check them directly on Github.
+                Sorry, failed to load projects. <br />
+                You can check them directly on GitHub.
             </Description>
             <ButtonLink
-                href="https://github.com/stolar-code?tab=repositories"
+                href={repositoriesUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Github repositories">
-                Go to Github
+                title="GitHub repositories">
+                Go to GitHub
             </ButtonLink>
         </StyledFailure >
 );
