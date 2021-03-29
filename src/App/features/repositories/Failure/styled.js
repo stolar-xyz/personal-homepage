@@ -3,7 +3,7 @@ import { ReactComponent as dangerIcon } from "../../../images/svgs/danger.svg";
 
 export const StyledFailure = styled.div`
     text-align: center;
-    margin: 96px 0 140px;
+    margin-top: 96px;
 `;
 
 export const Header = styled.h3`

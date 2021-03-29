@@ -4,7 +4,7 @@ export const StyledLoading = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 88px 0 140px;
+    margin-top: 88px;
 `;
 
 export const Description = styled.p`
