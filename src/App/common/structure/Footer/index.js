@@ -1,10 +1,10 @@
 import React from 'react'
 import ExtraTextContent from '../../styled/ExtraTextContent';
-import { Address, Email, IconLink, IconLinks, Paragraph } from './styled';
+import { Address, Email, IconLink, IconLinks, Paragraph, StyledFooter } from './styled';
 import { email, socials } from '../../../personalInfo';
 
 const Footer = () => (
-    <footer>
+    <StyledFooter>
         <ExtraTextContent>
             Let’s talk!
         </ExtraTextContent>
@@ -33,7 +33,7 @@ const Footer = () => (
                 ))}
             </IconLinks>
         </Address>
-    </footer>
+    </StyledFooter>
 );
 
 export default Footer;
