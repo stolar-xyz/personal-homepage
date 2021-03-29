@@ -5,7 +5,7 @@ export const Address = styled(FlexWrapper)`
     font-style: unset;
 `;
 
-export const Description = styled.p`
+export const Paragraph = styled.p`
     font-size: 18px;
     line-height: 1.4;
     color: ${({ theme }) => theme.color.text.secondaryText};
