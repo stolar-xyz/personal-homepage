@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const FlexWrapper = styled.div`
+const FlexWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -9,3 +9,5 @@ export const FlexWrapper = styled.div`
         justify-content: center;
     `};
 `;
+
+export default FlexWrapper;
