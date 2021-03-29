@@ -10,20 +10,22 @@ const Tile = ({ title, description, demo, code }) => (
             {description}
         </Description>
         <Links>
-            <LinkRow>
-                <LinkText>
-                    Demo:
-                </LinkText>
-                <LinkValue>
-                    <Link
-                        href={demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        {demo}
-                    </Link>
-                </LinkValue>
-            </LinkRow>
+            {!!demo && (
+                <LinkRow>
+                    <LinkText>
+                        Demo:
+                    </LinkText>
+                    <LinkValue>
+                        <Link
+                            href={demo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {demo}
+                        </Link>
+                    </LinkValue>
+                </LinkRow>
+            )}
             <LinkRow>
                 <LinkText>
                     Code:
