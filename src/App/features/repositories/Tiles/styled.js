@@ -7,11 +7,11 @@ export const Wrapper = styled.div`
 
 export const Icon = styled(GithubIcon)`
     color: ${({ theme }) => theme.color.element.icon};
+    height: auto;
     margin-bottom: 13px;
     
     @media(max-width: ${({ theme }) => theme.mobileMax}px) {
         width: 32px;
-        height: 32px;
     };
 `;
 
