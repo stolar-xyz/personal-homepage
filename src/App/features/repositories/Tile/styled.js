@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledTile = styled.li`
     background: ${({ theme }) => theme.color.background.secondaryBackground};
-    padding: 50px;
+    padding: 48px;
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border: 6px solid ${({ theme }) => theme.color.border.tileBorder};
     border-radius: 4px;
@@ -73,7 +73,6 @@ export const LinkValue = styled.dd`
 
 export const Link = styled.a`
     color: ${({ theme }) => theme.color.text.link};
-    text-underline-offset: 2px;
     overflow-wrap: anywhere;
     transition: color 0.3s;
 
