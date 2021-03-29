@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import { ReactComponent as Message } from "../../../images/svgs/message.svg";
 
 export const StyledHeader = styled.header`
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 66px;
     position: relative;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        flex-direction: column;
+        grid-gap: 16px;
+        grid-auto-flow: row;
     };
 `;
 
@@ -16,11 +19,10 @@ export const Profile = styled.img`
     max-width: 398px;
     max-height: 398px;
     border-radius: 50%;
-    margin: 0 66px 0 0;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         display: block;
-        margin: 0 auto 16px;
+        margin: 0 auto;
     };
 `;
 
