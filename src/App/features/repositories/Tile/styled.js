@@ -21,22 +21,6 @@ export const StyledTile = styled.li`
     };
 `;
 
-export const Wrapper = styled.div`
-    font-size: 18px;
-    display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(2, auto);
-    justify-content: start;
-
-    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
-        grid-gap: 10px;
-    };
-
-    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
-        font-size: 14px;
-    };
-`;
-
 export const Title = styled.h3`
     color: ${({ theme }) => theme.color.text.tileTitle};
     font-size: 24px;
@@ -58,8 +42,33 @@ export const Description = styled.p`
     };
 `;
 
-export const LinkText = styled.span`
+export const Links = styled.dl`
+    margin: 0;
+    font-size: 18px;
+    display: grid;
+    grid-gap: 8px;
+    line-height: 1.4;
+
+    @media (max-width: ${({ theme }) => theme.tabletMax}px) {
+        grid-gap: 10px;
+    };
+
+    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
+        font-size: 14px;
+    };
+`;
+
+export const LinkRow = styled.div`
+    display: grid;
+    grid-template-columns: 4em 1fr;
+`;
+
+export const LinkText = styled.dt`
     color: ${({ theme }) => theme.color.text.primaryText};
+`;
+
+export const LinkValue = styled.dd`
+    margin: 0;
 `;
 
 export const Link = styled.a`
