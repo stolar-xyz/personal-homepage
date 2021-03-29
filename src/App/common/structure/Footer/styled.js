@@ -1,4 +1,9 @@
 import styled from 'styled-components';
+import FlexWrapper from '../../styled/FlexWrapper';
+
+export const Address = styled(FlexWrapper)`
+    font-style: unset;
+`;
 
 export const Description = styled.p`
     font-size: 18px;
@@ -31,10 +36,13 @@ export const Email = styled.a`
     };
 `;
 
-export const IconLinks = styled.div`
+export const IconLinks = styled.ul`
     display: grid;
     grid-auto-flow: column;
     grid-gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         align-self: center;
