@@ -5,7 +5,7 @@ import ButtonLink from '../../styled/ButtonLink';
 import LazyLoad from 'react-lazyload';
 import profile from "../../../images/profile.jpg";
 import FlexWrapper from '../../styled/FlexWrapper';
-import { MessageIcon, StyledHeader, Description, Title, Profile } from './styled';
+import { MessageIcon, StyledHeader, Description, Name, Profile } from './styled';
 import { email } from '../../../personalInfo';
 
 
@@ -22,9 +22,9 @@ const Header = () => (
             <ExtraTextContent>
                 This is
             </ExtraTextContent>
-            <Title>
+            <Name>
                 Andrzej Stolarek
-            </Title>
+            </Name>
             <Description>
                 👨🏻‍💻 I’m a passionate Frontend Developer in love with React,
                 currently looking for new job opportunities.

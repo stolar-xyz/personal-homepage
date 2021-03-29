@@ -26,7 +26,7 @@ export const Profile = styled.img`
     };
 `;
 
-export const Title = styled.h1`
+export const Name = styled.h1`
     color: ${({ theme }) => theme.color.text.title};
     margin: 12px 0 0 0;
     font-weight: 900;
