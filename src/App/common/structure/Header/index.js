@@ -8,7 +8,6 @@ import FlexWrapper from '../../styled/FlexWrapper';
 import { MessageIcon, StyledHeader, Description, Name, Profile } from './styled';
 import { email } from '../../../personalInfo';
 
-
 const Header = () => (
     <StyledHeader>
         <ThemeToggler />
@@ -26,7 +25,7 @@ const Header = () => (
                 Andrzej Stolarek
             </Name>
             <Description>
-                👨🏻‍💻 I’m a passionate Frontend Developer in love with React,
+                👨🏻‍💻 I’m a passionate front-end developer in love with React,
                 currently looking for new job opportunities.
             </Description>
             <ButtonLink header
