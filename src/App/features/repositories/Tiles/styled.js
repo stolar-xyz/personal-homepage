@@ -36,9 +36,6 @@ export const Container = styled.ul`
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
         grid-gap: 18px;
-    };
-
-    @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         grid-template-columns: 1fr;
     };
 `;
