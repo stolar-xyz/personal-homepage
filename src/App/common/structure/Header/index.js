@@ -30,7 +30,7 @@ const Header = () => (
             <ButtonLink
                 href={`mailto:${email}`}
                 title={email}>
-                <MessageIcon /> Hire me
+                <MessageIcon />Hire me
             </ButtonLink>
         </Wrapper>
     </StyledHeader>
