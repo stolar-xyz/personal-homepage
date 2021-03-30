@@ -8,7 +8,7 @@ const Footer = () => (
         <ExtraTextContent>
             Let’s talk!
         </ExtraTextContent>
-        <Address as="address">
+        <Address>
             <Email
                 href={`mailto:${email}`}
                 title={email}>
