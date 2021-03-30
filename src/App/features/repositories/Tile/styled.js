@@ -6,10 +6,10 @@ export const StyledTile = styled.li`
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border: 6px solid ${({ theme }) => theme.color.border.tileBorder};
     border-radius: 4px;
-    transition: border 0.3s;
+    transition: border-color 0.3s;
 
     &:hover {
-        border: 6px solid ${({ theme }) => theme.color.hover.tileBorder};
+        border-color: ${({ theme }) => theme.color.hover.tileBorder};
     };
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
