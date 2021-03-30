@@ -6,11 +6,16 @@ export const StyledHeader = styled.header`
     grid-auto-flow: column;
     grid-gap: 66px;
     position: relative;
+    justify-content: start;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         grid-gap: 16px;
         grid-auto-flow: row;
     };
+`;
+
+export const Wrapper = styled.div`
+    align-self: center;
 `;
 
 export const Profile = styled.img`
