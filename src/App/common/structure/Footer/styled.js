@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import FlexWrapper from '../../styled/FlexWrapper';
 
 export const StyledFooter = styled.footer`
     margin-top: 140px;
@@ -9,7 +8,10 @@ export const StyledFooter = styled.footer`
     };
 `;
 
-export const Address = styled(FlexWrapper)`
+export const Address = styled.address`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-style: unset;
 `;
 
