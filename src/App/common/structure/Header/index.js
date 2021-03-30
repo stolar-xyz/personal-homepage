@@ -4,8 +4,7 @@ import ExtraTextContent from '../../styled/ExtraTextContent';
 import ButtonLink from '../../styled/ButtonLink';
 import LazyLoad from 'react-lazyload';
 import profile from "../../../images/profile.jpg";
-import FlexWrapper from '../../styled/FlexWrapper';
-import { MessageIcon, StyledHeader, Description, Name, Profile } from './styled';
+import { MessageIcon, StyledHeader, Description, Name, Profile, Wrapper } from './styled';
 import { email } from '../../../personalInfo';
 
 const Header = () => (
@@ -17,7 +16,7 @@ const Header = () => (
                 alt="Author photo"
             />
         </LazyLoad>
-        <FlexWrapper header>
+        <Wrapper>
             <ExtraTextContent>
                 This is
             </ExtraTextContent>
@@ -28,12 +27,12 @@ const Header = () => (
                 👨🏻‍💻 I’m a passionate front-end developer in love with React,
                 currently looking for new job opportunities.
             </Description>
-            <ButtonLink header
+            <ButtonLink
                 href={`mailto:${email}`}
                 title={email}>
                 <MessageIcon /> Hire me
             </ButtonLink>
-        </FlexWrapper>
+        </Wrapper>
     </StyledHeader>
 );
 
