@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledFooter = styled.footer`
-    margin-top: 140px;
+    margin-top: 120px;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         margin-top: 48px;

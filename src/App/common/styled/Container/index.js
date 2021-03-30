@@ -3,10 +3,10 @@ import styled from 'styled-components';
 const Container = styled.div`
     max-width: 1216px;
     padding: 0 14px;
-    margin: 119px auto;
+    margin: 52px auto 86px;
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
-        margin: 34px auto;
+        margin: 32px auto;
     };
 `;
 
