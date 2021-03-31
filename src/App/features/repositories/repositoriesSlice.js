@@ -4,21 +4,26 @@ const repositoriesSlice = createSlice({
     name: "repositories",
     initialState: {
         repositories: null,
-        status: "loading",
+        status: "initial",
     },
     reducers: {
-        setRepositories: (state, { payload: repositories }) => {
-            state.repositories = repositories;
+        fetchRepositories: state => {
+            state.status = "loading";
         },
-        setStatus: (state, { payload }) => {
-            state.status = payload;
+        fetchRepositoriesSuccess: (state, { payload: repositories }) => {
+            state.repositories = repositories;
+            state.status = "success";
+        },
+        fetchRepositoriesError: state => {
+            state.status = "error";
         },
     },
 });
 
 export const {
-    setRepositories,
-    setStatus,
+    fetchRepositories,
+    fetchRepositoriesSuccess,
+    fetchRepositoriesError,
 } = repositoriesSlice.actions;
 
 export const selectStatus = state => state.repositories.status;
