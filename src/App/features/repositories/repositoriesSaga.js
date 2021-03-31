@@ -1,19 +1,17 @@
-import { call, put, delay } from "redux-saga/effects";
+import { call, put, delay, takeLatest } from "redux-saga/effects";
 import { getRepositories } from "./getRepositories";
-import { setRepositories, setStatus } from "./repositoriesSlice";
+import { fetchRepositories, fetchRepositoriesError, fetchRepositoriesSuccess } from "./repositoriesSlice";
 
 function* fetchRepositoriesHandler() {
     try {
         yield delay(2000); // just to demo the loading
         const repositories = yield call(getRepositories);
-        yield put(setRepositories(repositories));
-        yield put(setStatus("success"));
+        yield put(fetchRepositoriesSuccess(repositories));
     } catch (error) {
-        console.error("Something bad happened!", error);
-        yield put(setStatus("error"));
+        yield put(fetchRepositoriesError());
     };
 };
 
 export function* repositoriesSaga() {
-    yield fetchRepositoriesHandler();
+    yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
 };
