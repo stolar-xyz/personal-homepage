@@ -9,6 +9,7 @@ export const Toggler = styled.button`
     right: 0;
     padding: 0;
     cursor: pointer;
+    color: inherit;
 
     ${({ clicked }) => clicked && css`
         ${Ball} {
