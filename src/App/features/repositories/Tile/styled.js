@@ -34,7 +34,6 @@ export const Title = styled.h3`
 export const Description = styled.p`
     font-size: 18px;
     margin: 24px 0;
-    color: ${({ theme }) => theme.color.text.primaryText};
     line-height: 1.4;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
@@ -61,10 +60,6 @@ export const Links = styled.dl`
 export const LinkRow = styled.div`
     display: grid;
     grid-template-columns: 4em 1fr;
-`;
-
-export const LinkText = styled.dt`
-    color: ${({ theme }) => theme.color.text.primaryText};
 `;
 
 export const LinkValue = styled.dd`

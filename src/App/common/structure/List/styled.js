@@ -19,7 +19,6 @@ export const ListItem = styled.li`
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: ${({ theme }) => theme.color.text.primaryText};
 
     &::before {
         content: "";

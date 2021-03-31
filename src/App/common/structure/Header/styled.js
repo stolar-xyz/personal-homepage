@@ -43,7 +43,6 @@ export const Name = styled.h1`
 `;
 
 export const Description = styled.p`
-    color: ${({ theme }) => theme.color.text.primaryText};
     font-size: 20px;
     margin: 35px 0 32px;
     max-width: 633px;
