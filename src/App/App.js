@@ -2,7 +2,7 @@ import Container from "./common/styled/Container";
 import Section from "./common/structure/Section";
 import Footer from "./common/structure/Footer";
 import Header from "./common/structure/Header";
-import Tiles from "./features/repositories/Tiles";
+import Repositories from "./features/repositories/Repositories";
 import List from "./common/structure/List";
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from "./theme";
@@ -11,6 +11,7 @@ import { selectDarkTheme } from "./features/themeToggler/themeSlice";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from './GlobalStyle';
 import { skillSet, learnNext } from "./personalInfo";
+
 
 const App = () => {
   const isThemeDark = useSelector(selectDarkTheme)
@@ -34,7 +35,7 @@ const App = () => {
               items={learnNext}
             />}
           />
-          <Tiles />
+          <Repositories />
         </main>
         <Footer />
       </Container>

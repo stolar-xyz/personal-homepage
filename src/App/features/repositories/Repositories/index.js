@@ -7,7 +7,7 @@ import { Wrapper, ExtraSubheaderContent, Icon } from './styled';
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectStatus } from '../repositoriesSlice';
 
-const Tiles = () => {
+const Repositories = () => {
     const dispatch = useDispatch();
 
     const repositoriesStatus = useSelector(selectStatus);
@@ -45,4 +45,4 @@ const Tiles = () => {
     );
 };
 
-export default Tiles;
+export default Repositories;
