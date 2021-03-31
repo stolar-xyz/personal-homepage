@@ -2,13 +2,13 @@ import React from 'react'
 import Tile from '../Tile';
 import { useSelector } from 'react-redux';
 import { selectRepositories } from '../repositoriesSlice';
-import { Container } from './styled';
+import { Tiles } from './styled';
 
 const Success = () => {
     const repositories = useSelector(selectRepositories);
 
     return (
-        <Container>
+        <Tiles>
             {repositories.map(({ id, name, description, homepage, html_url }) => (
                 <Tile
                     key={id}
@@ -18,7 +18,7 @@ const Success = () => {
                     code={html_url}
                 />
             ))}
-        </Container>
+        </Tiles>
     );
 };
 
