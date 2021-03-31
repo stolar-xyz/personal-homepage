@@ -18,7 +18,6 @@ export const lightTheme = {
         text: {
             primaryText: colors.paleSky,
             secondaryText: colors.mineShaft,
-            title: colors.mineShaft,
             tileTitle: colors.mariner,
             link: colors.mariner,
         },
@@ -60,7 +59,6 @@ export const darkTheme = {
         text: {
             primaryText: colors.white,
             secondaryText: colors.white,
-            title: colors.white,
             tileTitle: colors.white,
             link: "#4B9FFF",
         },
