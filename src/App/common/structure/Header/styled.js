@@ -32,7 +32,7 @@ export const Profile = styled.img`
 `;
 
 export const Name = styled.h1`
-    color: ${({ theme }) => theme.color.text.title};
+    color: ${({ theme }) => theme.color.text.secondaryText};
     margin: 12px 0 0 0;
     font-weight: 900;
     font-size: 38px;

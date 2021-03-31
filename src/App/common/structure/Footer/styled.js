@@ -29,7 +29,7 @@ export const Paragraph = styled.p`
 `;
 
 export const Email = styled.a`
-    color: ${({ theme }) => theme.color.text.title};
+    color: ${({ theme }) => theme.color.text.secondaryText};
     font-weight: 900;
     font-size: 32px;
     margin: 24px 0;
