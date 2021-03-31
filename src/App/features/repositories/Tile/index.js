@@ -1,5 +1,5 @@
 import React from 'react'
-import { LinkText, StyledTile, Link, Title, Description, LinkValue, Links, LinkRow } from './styled';
+import { StyledTile, Link, Title, Description, LinkValue, Links, LinkRow } from './styled';
 
 const Tile = ({ title, description, demo, code }) => (
     <StyledTile>
@@ -12,9 +12,9 @@ const Tile = ({ title, description, demo, code }) => (
         <Links>
             {!!demo && (
                 <LinkRow>
-                    <LinkText>
+                    <dt>
                         Demo:
-                    </LinkText>
+                    </dt>
                     <LinkValue>
                         <Link
                             href={demo}
@@ -27,9 +27,9 @@ const Tile = ({ title, description, demo, code }) => (
                 </LinkRow>
             )}
             <LinkRow>
-                <LinkText>
+                <dt>
                     Code:
-                </LinkText>
+                </dt>
                 <LinkValue>
                     <Link
                         href={code}
