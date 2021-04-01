@@ -1,7 +1,7 @@
 import React from 'react'
 import Tile from '../Tile';
 import { useSelector } from 'react-redux';
-import { selectRepositories } from '../repositoriesSlice';
+import { selectRepositories } from '../../repositoriesSlice';
 import { Tiles } from './styled';
 
 const Success = () => {

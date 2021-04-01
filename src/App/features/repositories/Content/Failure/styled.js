@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as dangerIcon } from "../../../images/svgs/danger.svg";
+import { ReactComponent as dangerIcon } from "../../../../images/svgs/danger.svg";
 
 export const StyledFailure = styled.div`
     text-align: center;

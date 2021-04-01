@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import Loading from "../Loading";
-import Failure from '../Failure';
-import Success from '../Success';
+import Loading from "./Loading";
+import Failure from './Failure';
+import Success from './Success';
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectStatus } from '../repositoriesSlice';
 
