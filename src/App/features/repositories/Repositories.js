@@ -1,6 +1,6 @@
 import React from 'react'
-import Subheader from '../../../common/styled/Subheader';
-import Content from '../Content';
+import Subheader from '../../common/styled/Subheader';
+import Content from './Content';
 import { Wrapper, ExtraSubheaderContent, Icon } from './styled';
 
 const Repositories = () => (
