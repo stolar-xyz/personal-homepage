@@ -2,9 +2,11 @@ import { call, put, delay, takeLatest } from "redux-saga/effects";
 import { getRepositories } from "./getRepositories";
 import { fetchRepositories, fetchRepositoriesError, fetchRepositoriesSuccess } from "./repositoriesSlice";
 
+const loadingDelay = 2_000;
+
 function* fetchRepositoriesHandler() {
     try {
-        yield delay(2000); // just to demo the loading
+        yield delay(loadingDelay); // just to demo the loading
         const repositories = yield call(getRepositories);
         yield put(fetchRepositoriesSuccess(repositories));
     } catch (error) {
