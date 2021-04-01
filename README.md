@@ -1,9 +1,16 @@
-Live: https://stolar-code.github.io/personal-homepage/
-##  Used technologies
+# personal-homepage
+Demo: https://stolar-code.github.io/personal-homepage/
+
+[Page preview](#page-preview)
+
+## Description
+This website is my portfolio. You can find here information about me, what skills I have, what projects I did and what I plan to learn in the future.\
+I used the GitHub API to display the shortcuts of my projects.
+### Used technologies
  - HTML
  - CSS
  - JavaScript
-  - JSX
+ - JSX
  - React
  - create-react-app
 
@@ -16,6 +23,14 @@ Live: https://stolar-code.github.io/personal-homepage/
  - styled-components
  - styled-normalize
  - axios
+
+### Page preview
+ **Light theme**\
+![light theme page preview](https://i.ibb.co/wrjmmfQ/Light-Theme.png "light theme page preview")
+
+ **Dark theme**\
+![dark theme page preview](https://i.ibb.co/k0qPzQQ/Dark-Theme.png "dark theme page preview")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
