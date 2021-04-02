@@ -1,35 +1,41 @@
 # personal-homepage
+
 Demo: https://stolar-code.github.io/personal-homepage/
 
 [Page preview](#page-preview)
 
 ## Description
+
 This website is my portfolio. You can find here information about me, what skills I have, what projects I did and what I plan to learn in the future.\
 I used the GitHub API to display the shortcuts of my projects.
+
 ### Used technologies
- - HTML
- - CSS
- - JavaScript
- - JSX
- - React
- - create-react-app
+
+-   HTML
+-   CSS
+-   JavaScript
+-   JSX
+-   React
+-   create-react-app
 
 ### Libraries
- - gh-pages
- - react-redux
- - redux-toolkit
- - redux-saga
- - react-lazy
- - styled-components
- - styled-normalize
- - axios
+
+-   gh-pages
+-   react-redux
+-   redux-toolkit
+-   redux-saga
+-   react-lazy
+-   styled-components
+-   styled-normalize
+-   axios
 
 ### Page preview
- **Light theme**\
-![light theme page preview](https://i.ibb.co/wrjmmfQ/Light-Theme.png "light theme page preview")
 
- **Dark theme**\
-![dark theme page preview](https://i.ibb.co/k0qPzQQ/Dark-Theme.png "dark theme page preview")
+**Light theme**\
+![light theme page preview](https://i.ibb.co/wrjmmfQ/Light-Theme.png 'light theme page preview')
+
+**Dark theme**\
+![dark theme page preview](https://i.ibb.co/k0qPzQQ/Dark-Theme.png 'dark theme page preview')
 
 # Getting Started with Create React App
 
