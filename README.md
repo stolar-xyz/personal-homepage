@@ -2,7 +2,8 @@
 
 Demo: https://stolar-code.github.io/personal-homepage/
 
-[Page preview](#page-preview)
+[Page preview](#page-preview)\
+[Lighthouse stats](#lighthouse-stats)
 
 ## Description
 
@@ -36,6 +37,10 @@ I used the GitHub API to display the shortcuts of my projects.
 
 **Dark theme**\
 ![dark theme page preview](https://i.ibb.co/k0qPzQQ/Dark-Theme.png 'dark theme page preview')
+
+### Lighthouse stats
+
+![lighthouse stats](https://i.ibb.co/jHjBPSw/Lighthouse.png 'lighthouse stats')
 
 # Getting Started with Create React App
 
