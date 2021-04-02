@@ -1,5 +1,13 @@
-import React from 'react'
-import { StyledTile, Link, Title, Description, LinkValue, Links, LinkRow } from './styled';
+import React from 'react';
+import {
+    StyledTile,
+    Link,
+    Title,
+    Description,
+    LinkValue,
+    Links,
+    LinkRow,
+} from './styled';
 
 const Tile = ({ title, description, demo, code }) => (
     <StyledTile>
@@ -12,30 +20,21 @@ const Tile = ({ title, description, demo, code }) => (
         <Links>
             {!!demo && (
                 <LinkRow>
-                    <dt>
-                        Demo:
-                    </dt>
+                    <dt>Demo:</dt>
                     <LinkValue>
                         <Link
                             href={demo}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
+                            target='_blank'
+                            rel='noopener noreferrer'>
                             {demo}
                         </Link>
                     </LinkValue>
                 </LinkRow>
             )}
             <LinkRow>
-                <dt>
-                    Code:
-                </dt>
+                <dt>Code:</dt>
                 <LinkValue>
-                    <Link
-                        href={code}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <Link href={code} target='_blank' rel='noopener noreferrer'>
                         {code}
                     </Link>
                 </LinkValue>

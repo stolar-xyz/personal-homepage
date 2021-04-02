@@ -17,7 +17,7 @@ export const Description = styled.p`
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;
         margin: 0 0 32px 0;
-    };
+    }
 `;
 
 const spin = keyframes`
@@ -31,12 +31,12 @@ export const Loader = styled.div`
     height: 160px;
     border-radius: 50%;
     border: 10px solid ${({ theme }) => theme.color.border.loaderBorder};
-    border-top-color: #2B77CC;
+    border-top-color: #2b77cc;
     animation: ${spin} 1s linear infinite;
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         width: 130px;
-        height: 130px; 
+        height: 130px;
         border-width: 5px;
-    };
+    }
 `;

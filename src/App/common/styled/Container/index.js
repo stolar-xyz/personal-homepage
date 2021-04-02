@@ -7,7 +7,7 @@ const Container = styled.div`
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
         margin: 32px auto;
-    };
+    }
 `;
 
 export default Container;

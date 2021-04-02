@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 const ExtraTextContent = styled.span`
     font-weight: 700;
@@ -11,8 +11,8 @@ const ExtraTextContent = styled.span`
 
         @media (max-width: ${({ theme }) => theme.tabletMax}px) {
             display: none;
-        };
-    `};
+        }
+    `}
 `;
 
 export default ExtraTextContent;

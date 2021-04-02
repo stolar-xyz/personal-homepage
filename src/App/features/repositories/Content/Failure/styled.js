@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as dangerIcon } from "../../../../images/svgs/danger.svg";
+import { ReactComponent as dangerIcon } from '../../../../images/svgs/danger.svg';
 
 export const StyledFailure = styled.div`
     text-align: center;
@@ -13,7 +13,7 @@ export const Header = styled.h3`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 16px;
-    };
+    }
 `;
 
 export const Description = styled.p`
@@ -24,7 +24,7 @@ export const Description = styled.p`
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;
         margin: 24px 0;
-    };
+    }
 `;
 
 export const DangerIcon = styled(dangerIcon)`

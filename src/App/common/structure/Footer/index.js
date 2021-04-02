@@ -1,23 +1,26 @@
-import React from 'react'
+import React from 'react';
 import ExtraTextContent from '../../styled/ExtraTextContent';
-import { Address, Email, IconLink, IconLinks, Paragraph, StyledFooter } from './styled';
+import {
+    Address,
+    Email,
+    IconLink,
+    IconLinks,
+    Paragraph,
+    StyledFooter,
+} from './styled';
 import { email, socials } from '../../../personalInfo';
 
 const Footer = () => (
     <StyledFooter>
-        <ExtraTextContent>
-            Let’s talk!
-        </ExtraTextContent>
+        <ExtraTextContent>Let’s talk!</ExtraTextContent>
         <Address>
-            <Email
-                href={`mailto:${email}`}
-                title={email}>
+            <Email href={`mailto:${email}`} title={email}>
                 {email}
             </Email>
             <Paragraph>
-                I’m always open to new projects whenever I have the time. If you have a website
-                in mind and need some help to make your ideas come to life,
-                feel free to contact me ✌
+                I’m always open to new projects whenever I have the time. If you
+                have a website in mind and need some help to make your ideas
+                come to life, feel free to contact me ✌
             </Paragraph>
             <IconLinks>
                 {socials.map(({ link, title, Icon }) => (
@@ -25,8 +28,8 @@ const Footer = () => (
                         <IconLink
                             href={link}
                             title={title}
-                            target="_blank"
-                            rel="noopener noreferrer">
+                            target='_blank'
+                            rel='noopener noreferrer'>
                             <Icon />
                         </IconLink>
                     </li>

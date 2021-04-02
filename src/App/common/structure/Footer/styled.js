@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         margin-top: 48px;
-    };
+    } ;
 `;
 
 export const Address = styled.address`
@@ -24,8 +24,8 @@ export const Paragraph = styled.p`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;
-        margin: 0 0 40px 0;;
-    };
+        margin: 0 0 40px 0;
+    } ;
 `;
 
 export const Email = styled.a`
@@ -38,12 +38,12 @@ export const Email = styled.a`
 
     &:hover {
         color: ${({ theme }) => theme.color.hover.title};
-    };
+    }
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 18px;
         margin: 12px 0;
-    };
+    }
 `;
 
 export const IconLinks = styled.ul`
@@ -56,7 +56,7 @@ export const IconLinks = styled.ul`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         align-self: center;
-    };
+    }
 `;
 
 export const IconLink = styled.a`
@@ -65,5 +65,5 @@ export const IconLink = styled.a`
 
     &:hover {
         color: ${({ theme }) => theme.color.hover.iconLink};
-    };
+    }
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledList = styled.ul`
     display: grid;
@@ -12,7 +12,7 @@ export const StyledList = styled.ul`
         grid-gap: 18px;
         padding: 12px 0 0 0;
         margin: 12px 0 0 0;
-    };
+    }
 `;
 
 export const ListItem = styled.li`
@@ -21,8 +21,8 @@ export const ListItem = styled.li`
     font-size: 18px;
 
     &::before {
-        content: "";
-        background: #0366D6;
+        content: '';
+        background: #0366d6;
         border-radius: 50%;
         width: 9px;
         height: 9px;
@@ -31,10 +31,10 @@ export const ListItem = styled.li`
         @media (max-width: ${({ theme }) => theme.mobileMax}px) {
             width: 6px;
             height: 6px;
-        };
-    };
+        }
+    }
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 14px;
-    };
+    }
 `;

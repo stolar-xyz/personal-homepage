@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
-import Loading from "./Loading";
+import React, { useEffect } from 'react';
+import Loading from './Loading';
 import Failure from './Failure';
 import Success from './Success';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from 'react-redux';
 import { fetchRepositories, selectStatus } from '../repositoriesSlice';
 
 const Content = () => {
@@ -15,17 +15,21 @@ const Content = () => {
     }, [dispatch]);
 
     switch (repositoriesStatus) {
-        case "initial":
+        case 'initial':
             return null;
-        case "loading":
+
+        case 'loading':
             return <Loading />;
-        case "error":
+
+        case 'error':
             return <Failure />;
-        case "success":
+
+        case 'success':
             return <Success />;
+
         default:
             throw new Error(`incorrect status - ${repositoriesStatus}`);
-    };
+    }
 };
 
 export default Content;

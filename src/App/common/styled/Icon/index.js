@@ -5,7 +5,7 @@ const Icon = icon => styled(icon)`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         width: 32px;
-    };
+    }
 `;
 
 export default Icon;

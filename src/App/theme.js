@@ -1,16 +1,16 @@
 const colors = {
-    white: "#FFFFFF",
-    mineShaft: "#252525",
-    mariner: "#2B77CC",
-    dodgerBlue: "#2188FF",
-    paleSky: "#687585",
-    athensGray: "#EEF0F3",
-    ironLight: "#D1D5DA1A",
+    white: '#FFFFFF',
+    mineShaft: '#252525',
+    mariner: '#2B77CC',
+    dodgerBlue: '#2188FF',
+    paleSky: '#687585',
+    athensGray: '#EEF0F3',
+    ironLight: '#D1D5DA1A',
 };
 
 const breakPoints = {
-    mobileMax: "767",
-    tabletMax: "1023",
+    mobileMax: '767',
+    tabletMax: '1023',
 };
 
 export const lightTheme = {
@@ -23,15 +23,15 @@ export const lightTheme = {
         },
 
         background: {
-            primaryBackground: "#FBFBFE",
+            primaryBackground: '#FBFBFE',
             secondaryBackground: colors.white,
             linkButtonBackground: colors.mariner,
-            themeTogglerBackground: "#E5E5E5",
+            themeTogglerBackground: '#E5E5E5',
             ballBackground: colors.paleSky,
         },
 
         border: {
-            listBorder: "rgba(209, 213, 218, 0.8)",
+            listBorder: 'rgba(209, 213, 218, 0.8)',
             tileBorder: colors.athensGray,
             loaderBorder: colors.athensGray,
         },
@@ -45,10 +45,10 @@ export const lightTheme = {
 
         hover: {
             title: colors.mariner,
-            tileBorder: "rgba(3, 102, 214, 0.3)",
-            buttonShadow: "#8CC2FF",
+            tileBorder: 'rgba(3, 102, 214, 0.3)',
+            buttonShadow: '#8CC2FF',
             iconLink: colors.mariner,
-            link: "#6529CF",
+            link: '#6529CF',
         },
     },
     ...breakPoints,
@@ -60,21 +60,21 @@ export const darkTheme = {
             primaryText: colors.white,
             secondaryText: colors.white,
             tileTitle: colors.white,
-            link: "#4B9FFF",
+            link: '#4B9FFF',
         },
 
         background: {
             primaryBackground: colors.mineShaft,
-            secondaryBackground: "#343435",
-            linkButtonBackground: "#0470F7",
-            themeTogglerBackground: "#6E6E6E",
+            secondaryBackground: '#343435',
+            linkButtonBackground: '#0470F7',
+            themeTogglerBackground: '#6E6E6E',
             ballBackground: colors.white,
         },
 
         border: {
             listBorder: colors.ironLight,
             tileBorder: colors.ironLight,
-            loaderBorder: "rgba(54, 54, 54, 0.7)",
+            loaderBorder: 'rgba(54, 54, 54, 0.7)',
         },
 
         element: {
@@ -86,10 +86,10 @@ export const darkTheme = {
 
         hover: {
             title: colors.dodgerBlue,
-            tileBorder: "rgba(3, 102, 214, 0.5)",
-            buttonShadow: "#6D93BE",
+            tileBorder: 'rgba(3, 102, 214, 0.5)',
+            buttonShadow: '#6D93BE',
             iconLink: colors.dodgerBlue,
-            link: "#87BDFF",
+            link: '#87BDFF',
         },
     },
     ...breakPoints,

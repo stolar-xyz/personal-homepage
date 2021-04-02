@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { ListItem, StyledList } from './styled';
 
 const List = ({ items }) => (

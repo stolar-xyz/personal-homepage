@@ -1,21 +1,21 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const repositoriesSlice = createSlice({
-    name: "repositories",
+    name: 'repositories',
     initialState: {
         repositories: null,
-        status: "initial",
+        status: 'initial',
     },
     reducers: {
         fetchRepositories: state => {
-            state.status = "loading";
+            state.status = 'loading';
         },
         fetchRepositoriesSuccess: (state, { payload: repositories }) => {
             state.repositories = repositories;
-            state.status = "success";
+            state.status = 'success';
         },
         fetchRepositoriesError: state => {
-            state.status = "error";
+            state.status = 'error';
         },
     },
 });

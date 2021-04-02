@@ -8,7 +8,7 @@ const Subheader = styled.h2`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 18px;
-    };
+    }
 `;
 
 export default Subheader;

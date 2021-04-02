@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as Message } from "../../../images/svgs/message.svg";
+import { ReactComponent as Message } from '../../../images/svgs/message.svg';
 
 export const StyledHeader = styled.header`
     display: grid;
@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         grid-gap: 16px;
         grid-auto-flow: row;
-    };
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -28,7 +28,7 @@ export const Profile = styled.img`
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         display: block;
         margin: 0 auto;
-    };
+    }
 `;
 
 export const Name = styled.h1`
@@ -39,7 +39,7 @@ export const Name = styled.h1`
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 22px;
-    };
+    }
 `;
 
 export const Description = styled.p`
@@ -50,11 +50,11 @@ export const Description = styled.p`
 
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
         margin: 16px 0 24px;
-    };
+    }
 
     @media (max-width: ${({ theme }) => theme.mobileMax}px) {
         font-size: 18px;
-    };
+    }
 `;
 
 export const MessageIcon = styled(Message)`
@@ -64,5 +64,5 @@ export const MessageIcon = styled(Message)`
         margin-right: 12px;
         width: 20px;
         height: 18px;
-    };
+    }
 `;

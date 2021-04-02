@@ -14,8 +14,8 @@ export const Toggler = styled.button`
     ${({ clicked }) => clicked && css`
         ${Ball} {
             transform: translateX(calc(100% + 4px));
-        };
-    `};
+        }
+    `}
 `;
 
 export const TogglerField = styled.span`
@@ -23,7 +23,7 @@ export const TogglerField = styled.span`
     align-items: center;
     padding: 2px;
     border-radius: 20px;
-    border: 1px solid #8C98A7;
+    border: 1px solid #8c98a7;
     width: 50px;
     height: 25px;
     background: ${({ theme }) => theme.color.background.themeTogglerBackground};

@@ -11,5 +11,5 @@ export const Tiles = styled.ul`
     @media (max-width: ${({ theme }) => theme.tabletMax}px) {
         grid-gap: 18px;
         grid-template-columns: 1fr;
-    };
+    }
 `;

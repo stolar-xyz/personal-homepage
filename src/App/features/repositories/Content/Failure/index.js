@@ -15,12 +15,12 @@ const Failure = () => (
         </Description>
         <ButtonLink
             href={repositoriesUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            title="GitHub repositories">
+            target='_blank'
+            rel='noopener noreferrer'
+            title='GitHub repositories'>
             Go to GitHub
         </ButtonLink>
-    </StyledFailure >
+    </StyledFailure>
 );
 
 export default Failure;

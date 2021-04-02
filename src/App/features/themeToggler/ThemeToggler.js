@@ -1,9 +1,9 @@
-import React from "react";
-import ExtraTextContent from "../../common/styled/ExtraTextContent";
-import { useDispatch, useSelector } from "react-redux";
-import { Toggler, Ball, TogglerField } from "./styled";
-import { selectDarkTheme, toggleDarkTheme } from "./themeSlice";
-import { ReactComponent as SunIcon } from "../../images/svgs/sun.svg";
+import React from 'react';
+import ExtraTextContent from '../../common/styled/ExtraTextContent';
+import { useDispatch, useSelector } from 'react-redux';
+import { Toggler, Ball, TogglerField } from './styled';
+import { selectDarkTheme, toggleDarkTheme } from './themeSlice';
+import { ReactComponent as SunIcon } from '../../images/svgs/sun.svg';
 
 const ThemeToggler = () => {
     const isThemeDark = useSelector(selectDarkTheme);
@@ -13,9 +13,9 @@ const ThemeToggler = () => {
         <Toggler
             onClick={() => dispatch(toggleDarkTheme())}
             clicked={isThemeDark}
-            title={"Toggle theme"}>
+            title={'Toggle theme'}>
             <ExtraTextContent toggler>
-                Dark mode {isThemeDark ? "On" : "Off"}
+                Dark mode {isThemeDark ? 'On' : 'Off'}
             </ExtraTextContent>
             <TogglerField>
                 <Ball>

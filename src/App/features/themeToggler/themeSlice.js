@@ -1,10 +1,10 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { getDataFromLocalStorage } from "../saveDataInLocalStorage";
+import { createSlice } from '@reduxjs/toolkit';
+import { getDataFromLocalStorage } from '../saveDataInLocalStorage';
 
 const themeSlice = createSlice({
     name: 'theme',
     initialState: {
-        darkTheme: getDataFromLocalStorage("darkTheme"),
+        darkTheme: getDataFromLocalStorage('darkTheme'),
     },
     reducers: {
         toggleDarkTheme: state => {
@@ -13,9 +13,7 @@ const themeSlice = createSlice({
     },
 });
 
-export const {
-    toggleDarkTheme,
-} = themeSlice.actions;
+export const { toggleDarkTheme } = themeSlice.actions;
 
 export const selectDarkTheme = state => state.theme.darkTheme;
 
