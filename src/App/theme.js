@@ -8,7 +8,7 @@ const colors = {
     ironLight: '#D1D5DA1A',
 };
 
-const breakPoints = {
+const breakpoints = {
     mobileMax: '767',
     tabletMax: '1023',
 };
@@ -51,7 +51,7 @@ export const lightTheme = {
             link: '#6529CF',
         },
     },
-    ...breakPoints,
+    ...breakpoints,
 };
 
 export const darkTheme = {
@@ -92,5 +92,5 @@ export const darkTheme = {
             link: '#87BDFF',
         },
     },
-    ...breakPoints,
+    ...breakpoints,
 };
