@@ -1,8 +1,8 @@
 import Icon from './common/styled/Icon';
-import { ReactComponent as GithubExtraIcon } from './images/svgs/githubExtra.svg';
-import { ReactComponent as FacebookIcon } from './images/svgs/facebook.svg';
-import { ReactComponent as LinkedinIcon } from './images/svgs/linkedin.svg';
-import { ReactComponent as InstagramIcon } from './images/svgs/instagram.svg';
+import { ReactComponent as GithubExtraIcon } from './assets/svgs/githubExtra.svg';
+import { ReactComponent as FacebookIcon } from './assets/svgs/facebook.svg';
+import { ReactComponent as LinkedinIcon } from './assets/svgs/linkedin.svg';
+import { ReactComponent as InstagramIcon } from './assets/svgs/instagram.svg';
 
 const primaryNickname = 'stolar.xyz';
 const secondaryNickname = 'stolar-code';

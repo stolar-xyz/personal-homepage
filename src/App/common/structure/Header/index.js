@@ -2,7 +2,7 @@ import ThemeToggler from '../../../features/themeToggler/ThemeToggler';
 import ExtraTextContent from '../../styled/ExtraTextContent';
 import ButtonLink from '../../styled/ButtonLink';
 import LazyLoad from 'react-lazyload';
-import profile from '../../../images/profile.jpg';
+import profile from '../../../assets/profile.jpg';
 import {
     MessageIcon,
     StyledHeader,

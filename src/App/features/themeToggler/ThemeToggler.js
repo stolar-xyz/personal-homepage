@@ -2,7 +2,7 @@ import ExtraTextContent from '../../common/styled/ExtraTextContent';
 import { useDispatch, useSelector } from 'react-redux';
 import { Toggler, Ball, TogglerField } from './styled';
 import { selectDarkTheme, toggleDarkTheme } from './themeSlice';
-import { ReactComponent as SunIcon } from '../../images/svgs/sun.svg';
+import { ReactComponent as SunIcon } from '../../assets/svgs/sun.svg';
 
 const ThemeToggler = () => {
     const isThemeDark = useSelector(selectDarkTheme);

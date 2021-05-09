@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ReactComponent as Message } from '../../../images/svgs/message.svg';
+import { ReactComponent as Message } from '../../../assets/svgs/message.svg';
 
 export const StyledHeader = styled.header`
     display: grid;
