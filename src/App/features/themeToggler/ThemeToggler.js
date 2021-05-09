@@ -1,4 +1,3 @@
-import React from 'react';
 import ExtraTextContent from '../../common/styled/ExtraTextContent';
 import { useDispatch, useSelector } from 'react-redux';
 import { Toggler, Ball, TogglerField } from './styled';

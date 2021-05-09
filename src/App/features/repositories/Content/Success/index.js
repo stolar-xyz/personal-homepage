@@ -1,4 +1,3 @@
-import React from 'react';
 import Tile from '../Tile';
 import { useSelector } from 'react-redux';
 import { selectRepositories } from '../../repositoriesSlice';

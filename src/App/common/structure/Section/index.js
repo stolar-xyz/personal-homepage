@@ -1,4 +1,3 @@
-import React from 'react';
 import Subheader from '../../styled/Subheader';
 import { StyledSection } from './styled';
 

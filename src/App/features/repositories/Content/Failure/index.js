@@ -1,4 +1,3 @@
-import React from 'react';
 import ButtonLink from '../../../../common/styled/ButtonLink';
 import { DangerIcon, Description, Header, StyledFailure } from './styled';
 import { repositoriesUrl } from '../../../../personalInfo';

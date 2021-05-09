@@ -1,4 +1,3 @@
-import React from 'react';
 import ExtraTextContent from '../../styled/ExtraTextContent';
 import {
     Address,

@@ -1,4 +1,3 @@
-import React from 'react';
 import { StyledLoading, Description, Loader } from './styled';
 
 const Loading = () => (

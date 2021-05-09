@@ -1,4 +1,3 @@
-import React from 'react';
 import ThemeToggler from '../../../features/themeToggler/ThemeToggler';
 import ExtraTextContent from '../../styled/ExtraTextContent';
 import ButtonLink from '../../styled/ButtonLink';

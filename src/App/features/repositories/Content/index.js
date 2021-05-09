@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Loading from './Loading';
 import Failure from './Failure';
 import Success from './Success';
