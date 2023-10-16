@@ -5,11 +5,11 @@ import { ReactComponent as LinkedinIcon } from './assets/svgs/linkedin.svg';
 import { ReactComponent as InstagramIcon } from './assets/svgs/instagram.svg';
 
 const primaryNickname = 'stolar.xyz';
-const secondaryNickname = 'stolar-code';
+const secondaryNickname = 'stolar-xyz';
 
 export const repositoriesUrl = `https://github.com/${secondaryNickname}?tab=repositories`;
 export const repositoriesApi = `https://api.github.com/users/${secondaryNickname}/repos`;
-export const email = `stolar.code@gmail.com`;
+export const email = 'stolar.xyz@gmail.com';
 
 export const socials = [
     {
