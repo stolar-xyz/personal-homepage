@@ -1,6 +1,6 @@
 # personal-homepage
 
-[Demo](https://stolar-code.github.io/personal-homepage/)\
+[Demo](https://stolar-xyz.github.io/personal-homepage/)\
 [Page preview](#page-preview)\
 [Lighthouse stats](#lighthouse-stats)
 
